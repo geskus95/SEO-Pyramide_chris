@@ -25,6 +25,10 @@ jobs:
         working-directory: ./demo-site
         run: npm ci
 
+      - name: Clean build cache
+        working-directory: ./demo-site
+        run: rm -rf .next out
+
       - name: Build Next.js (Static Export)
         working-directory: ./demo-site
         run: npm run build
