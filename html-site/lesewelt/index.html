@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesewelt - Geschichten für Kinder | Fluxie</title>
-    <meta name="description" content="Entdecke spannende Geschichten für Kinder. Gutenachtgeschichten, Abenteuer und mehr!">
+    <title>Lesewelt – Entdecke unsere Geschichten | Fluxie</title>
+    <meta name="description" content="Tauche ein in die wunderbare Welt der Geschichten! Hier findest du spannende Abenteuer, berührende Gutenachtgeschichten und vieles mehr.">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
@@ -30,36 +30,44 @@
     <main class="min-h-screen bg-gray-50">
         <div class="container mx-auto px-4 py-12">
             <div class="max-w-4xl mx-auto">
-                <h1 class="text-5xl font-bold text-center mb-6 text-purple-600">
-                    📚 Lesewelt
+                <!-- Breadcrumb -->
+                <nav class="mb-8 text-sm text-gray-600">
+                    <a href="/lesewelt/" class="hover:text-purple-600">Home</a>
+                    <span class="mx-2">›</span>
+                    <span>Lesewelt</span>
+                </nav>
+
+                <!-- Hero -->
+                <h1 class="text-4xl font-bold mb-4 text-purple-600">
+                    📚 Lesewelt – Entdecke unsere Geschichten
                 </h1>
-                <p class="text-xl text-center text-gray-600 mb-12">
-                    Entdecke spannende Geschichten für Kinder
+                <p class="text-lg text-gray-600 mb-12">
+                    Tauche ein in die wunderbare Welt der Geschichten! Hier findest du spannende Abenteuer,
+                    berührende Gutenachtgeschichten und vieles mehr.
                 </p>
 
-                <!-- Categories -->
+                <!-- Kategorien-Grid -->
+                <h2 class="text-2xl font-bold mb-6 text-gray-800">Kategorien</h2>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <!-- Gutenachtgeschichten -->
                     <a href="/lesewelt/lesewelt/gutenachtgeschichten/" class="group">
-                        <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all transform hover:-translate-y-1">
-                            <div class="text-5xl mb-4">🌙</div>
-                            <h2 class="text-2xl font-bold mb-3 text-purple-600 group-hover:text-purple-700">
+                        <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
+                            <div class="text-5xl mb-3">🌙</div>
+                            <h3 class="text-xl font-bold mb-2 text-purple-600 group-hover:text-purple-700">
                                 Gutenachtgeschichten
-                            </h2>
+                            </h3>
                             <p class="text-gray-600">
-                                Beruhigende Geschichten für einen sanften Schlaf
+                                Sanfte Geschichten zum Einschlafen und Träumen
                             </p>
                         </div>
                     </a>
 
-                    <!-- Abenteuergeschichten -->
-                    <div class="bg-white rounded-xl shadow-lg p-8 opacity-60">
-                        <div class="text-5xl mb-4">🗺️</div>
-                        <h2 class="text-2xl font-bold mb-3 text-gray-600">
-                            Abenteuergeschichten
-                        </h2>
+                    <div class="bg-gray-100 rounded-xl p-6 opacity-60">
+                        <div class="text-5xl mb-3">✨</div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-600">
+                            Weitere Kategorien folgen...
+                        </h3>
                         <p class="text-gray-500">
-                            Spannende Abenteuer (Coming Soon)
+                            Bald gibt es hier mehr Geschichten!
                         </p>
                     </div>
                 </div>
