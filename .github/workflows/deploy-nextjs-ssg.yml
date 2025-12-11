@@ -45,14 +45,14 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22
           local_path: ./demo-site/out/*
-          remote_path: /wunschturm.de/httpdocs/lesewelt/
+          remote_path: /wunschturm.de/httpdocs/home/
           sftp_only: true
           delete_remote_files: false
 
       - name: Deployment Summary
         run: |
           echo "✅ Next.js SSG Deployment erfolgreich!"
-          echo "🌐 Website erreichbar unter: https://wunschturm.de/lesewelt/"
+          echo "🌐 Website erreichbar unter: https://wunschturm.de/home/"
           echo "📦 Build-Methode: Next.js Static Site Generation"
           echo "🎯 Deployed aus: demo-site/out/"
           echo ""

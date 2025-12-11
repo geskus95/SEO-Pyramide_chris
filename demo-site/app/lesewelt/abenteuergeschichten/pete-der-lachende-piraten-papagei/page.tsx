@@ -205,7 +205,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt/abenteuergeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/abenteuergeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Abenteuergeschichten
                 </a>
               </li>
@@ -439,7 +439,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
           {/* Zurück-Button */}
           <div className="mb-12">
             <a
-              href="/lesewelt/abenteuergeschichten"
+              href="/abenteuergeschichten"
               className="inline-flex items-center font-medium hover:opacity-80 transition"
               style={{ color: '#f77f00' }}
             >
@@ -523,7 +523,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
                   Gibt es weitere Abenteuergeschichten auf Fluxie?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Ja! In unserer Rubrik <a href="/lesewelt/abenteuergeschichten" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
+                  Ja! In unserer Rubrik <a href="/abenteuergeschichten" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
                   "Abenteuergeschichten"</a> finden Sie weitere spannende Geschichten für kleine Entdecker zum kostenlosen
                   Vorlesen. Wir erweitern die Sammlung regelmäßig um neue <strong>Piratengeschichten</strong> und andere
                   Abenteuer, die speziell für das Alter 4-10 Jahre entwickelt wurden. Schauen Sie gerne regelmäßig vorbei!
@@ -539,7 +539,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <a
-                href="/lesewelt/abenteuergeschichten"
+                href="/abenteuergeschichten"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">⚔️✨</div>

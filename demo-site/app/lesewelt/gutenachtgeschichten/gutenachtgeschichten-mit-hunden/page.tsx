@@ -179,7 +179,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt/gutenachtgeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/gutenachtgeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Gutenachtgeschichten
                 </a>
               </li>
@@ -222,7 +222,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
             <div className="grid md:grid-cols-3 gap-6">
               {/* Story 1 - Real */}
               <a
-                href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden/wuffi-und-die-schlafschafe"
+                href="/gutenachtgeschichten/gutenachtgeschichten-mit-hunden/wuffi-und-die-schlafschafe"
                 className="block group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
