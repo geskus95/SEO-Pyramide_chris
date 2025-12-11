@@ -1,0 +1,33 @@
+name: Deploy HTML to Netcup via SFTP
+
+on:
+  push:
+    branches:
+      - claude/html-css-version-01Uzzkw6cUEwSV8j5PpeFV8v
+
+jobs:
+  deploy:
+    name: Deploy HTML Site via SFTP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 22
+          local_path: ./html-site/
+          remote_path: /wunschturm.de/httpdocs/lesewelt/
+          sftp_only: true
+          delete_remote_files: false
+
+      - name: Deployment Summary
+        run: |
+          echo "✅ HTML Deployment erfolgreich!"
+          echo "🌐 Website erreichbar unter: https://wunschturm.de/lesewelt/"
+          echo "📦 Deployed: Reines HTML/CSS (kein Build nötig)"
