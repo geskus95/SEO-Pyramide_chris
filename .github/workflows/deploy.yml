@@ -1,4 +1,4 @@
-name: Deploy to Netcup via SFTP
+name: Deploy HTML to Netcup via SFTP
 
 on:
   push:
@@ -6,32 +6,13 @@ on:
       - claude/plan-seo-structure-01QZFruPp9PPTeauLDF2Q3Fk  # Default Branch
 
 jobs:
-  build-and-deploy:
-    name: Build Next.js & Deploy via SFTP
+  deploy:
+    name: Deploy HTML Site via SFTP
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: demo-site/package-lock.json
-
-      - name: Install dependencies
-        working-directory: ./demo-site
-        run: npm ci
-
-      - name: Clean build cache
-        working-directory: ./demo-site
-        run: rm -rf .next out
-
-      - name: Build Next.js (Static Export)
-        working-directory: ./demo-site
-        run: npm run build
 
       - name: Deploy via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
@@ -40,12 +21,13 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22
-          local_path: ./demo-site/out/
+          local_path: ./html-site/
           remote_path: /wunschturm.de/httpdocs/lesewelt/
           sftp_only: true
           delete_remote_files: false
 
       - name: Deployment Summary
         run: |
-          echo "✅ Deployment erfolgreich!"
+          echo "✅ HTML Deployment erfolgreich!"
           echo "🌐 Website erreichbar unter: https://wunschturm.de/lesewelt/"
+          echo "📦 Deployed: Reines HTML/CSS (kein Build nötig)"
