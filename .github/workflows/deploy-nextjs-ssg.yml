@@ -1,0 +1,62 @@
+name: Deploy Next.js SSG to Netcup via SFTP
+
+on:
+  push:
+    branches:
+      - claude/test-github-actions-deployment-01UTjZ8NYDykqCy9HpiNtrGv
+
+jobs:
+  build-and-deploy:
+    name: Build Next.js SSG and Deploy via SFTP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: demo-site/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./demo-site
+        run: npm ci
+
+      - name: Build Next.js Static Site
+        working-directory: ./demo-site
+        run: npm run build
+
+      - name: Verify build output
+        run: |
+          echo "📦 Build-Verzeichnis Inhalt:"
+          ls -la demo-site/out/
+          echo ""
+          echo "📄 Generierte HTML-Dateien:"
+          find demo-site/out -name "*.html" | head -10
+
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 22
+          local_path: ./demo-site/out/*
+          remote_path: /wunschturm.de/httpdocs/lesewelt/
+          sftp_only: true
+          delete_remote_files: false
+
+      - name: Deployment Summary
+        run: |
+          echo "✅ Next.js SSG Deployment erfolgreich!"
+          echo "🌐 Website erreichbar unter: https://wunschturm.de/lesewelt/"
+          echo "📦 Build-Methode: Next.js Static Site Generation"
+          echo "🎯 Deployed aus: demo-site/out/"
+          echo ""
+          echo "💡 Vorteile:"
+          echo "   - Komponenten-basierte Entwicklung"
+          echo "   - Statisches HTML/CSS als Output"
+          echo "   - Perfekt für große SEO-Pyramiden"
