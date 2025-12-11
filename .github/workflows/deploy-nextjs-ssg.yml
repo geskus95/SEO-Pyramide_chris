@@ -46,7 +46,7 @@ jobs:
           port: 22
           local_path: ./demo-site/out/*
           remote_path: /wunschturm.de/httpdocs/home/
-          sftp_only: true
+          sftp_only: false
           delete_remote_files: false
 
       - name: Deployment Summary
