@@ -38,7 +38,7 @@ export default function RootLayout({
                   <span>Lesewelt</span>
                 </a>
                 <a
-                  href="/lesewelt/blog"
+                  href="/blog"
                   className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
                 >
                   <span>✍️</span>

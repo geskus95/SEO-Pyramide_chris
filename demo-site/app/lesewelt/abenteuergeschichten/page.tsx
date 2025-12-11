@@ -203,7 +203,7 @@ export default function AbenteuergeschichtenPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <a
-                href="/lesewelt/abenteuergeschichten/piraten-abenteuer"
+                href="/abenteuergeschichten/piraten-abenteuer"
                 className="group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
@@ -250,7 +250,7 @@ export default function AbenteuergeschichtenPage() {
             <div className="grid md:grid-cols-3 gap-6">
               {/* Story Card 1 - Pete */}
               <a
-                href="/lesewelt/abenteuergeschichten/pete-der-lachende-piraten-papagei"
+                href="/abenteuergeschichten/pete-der-lachende-piraten-papagei"
                 className="group block"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
