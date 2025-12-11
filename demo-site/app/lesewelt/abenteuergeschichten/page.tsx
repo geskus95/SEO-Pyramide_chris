@@ -119,13 +119,13 @@ export default function AbenteuergeschichtenPage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
+                <a href="/home/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
@@ -203,7 +203,7 @@ export default function AbenteuergeschichtenPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <a
-                href="/abenteuergeschichten/piraten-abenteuer"
+                href="/home/abenteuergeschichten/piraten-abenteuer"
                 className="group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
@@ -231,7 +231,7 @@ export default function AbenteuergeschichtenPage() {
             {/* CTA-Button */}
             <div className="text-center">
               <a
-                href="/lesewelt"
+                href="/home/lesewelt"
                 className="inline-block bg-fluxie-orange hover:bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 Alle Geschichten entdecken →
@@ -250,7 +250,7 @@ export default function AbenteuergeschichtenPage() {
             <div className="grid md:grid-cols-3 gap-6">
               {/* Story Card 1 - Pete */}
               <a
-                href="/abenteuergeschichten/pete-der-lachende-piraten-papagei"
+                href="/home/abenteuergeschichten/pete-der-lachende-piraten-papagei"
                 className="group block"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">

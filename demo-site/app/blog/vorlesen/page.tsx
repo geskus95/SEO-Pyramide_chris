@@ -4,9 +4,9 @@ export default function VorlesenPage() {
       <div className="max-w-4xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:text-fluxie-orange">Home</a>
+          <a href="/home/" className="hover:text-fluxie-orange">Home</a>
           <span className="mx-2">›</span>
-          <a href="/blog" className="hover:text-fluxie-orange">Blog</a>
+          <a href="/home/blog" className="hover:text-fluxie-orange">Blog</a>
           <span className="mx-2">›</span>
           <span>Vorlesen</span>
         </nav>

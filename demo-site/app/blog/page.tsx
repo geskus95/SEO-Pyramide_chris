@@ -4,7 +4,7 @@ export default function BlogPage() {
       <div className="max-w-4xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:text-fluxie-orange">Home</a>
+          <a href="/home/" className="hover:text-fluxie-orange">Home</a>
           <span className="mx-2">›</span>
           <span>Blog</span>
         </nav>
