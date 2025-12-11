@@ -4,9 +4,9 @@ export default function LeseeckePage() {
       <article className="max-w-3xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:text-fluxie-orange">Home</a>
+          <a href="/home/" className="hover:text-fluxie-orange">Home</a>
           <span className="mx-2">›</span>
-          <a href="/blog" className="hover:text-fluxie-orange">Blog</a>
+          <a href="/home/blog" className="hover:text-fluxie-orange">Blog</a>
           <span className="mx-2">›</span>
           <a href="/blog/vorlesen" className="hover:text-fluxie-orange">Vorlesen</a>
           <span className="mx-2">›</span>

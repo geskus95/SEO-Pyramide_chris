@@ -167,19 +167,19 @@ export default function PiratenAbenteuerPage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
+                <a href="/home/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/abenteuergeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/abenteuergeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Abenteuergeschichten
                 </a>
               </li>
@@ -223,7 +223,7 @@ export default function PiratenAbenteuerPage() {
             <div className="grid md:grid-cols-3 gap-6">
               {/* Story 1 - Pete */}
               <a
-                href="/abenteuergeschichten/pete-der-lachende-piraten-papagei"
+                href="/home/abenteuergeschichten/pete-der-lachende-piraten-papagei"
                 className="block group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">

@@ -4,7 +4,7 @@ export default function LeseweltPage() {
       <div className="max-w-4xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
+          <a href="/home/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
           <span className="mx-2">›</span>
           <span>Lesewelt</span>
         </nav>
@@ -21,7 +21,7 @@ export default function LeseweltPage() {
         {/* Kategorien-Grid */}
         <h2 className="text-2xl font-bold mb-6 text-gray-800">Kategorien</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <a href="/gutenachtgeschichten" className="group">
+          <a href="/home/gutenachtgeschichten" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
               <div className="text-5xl mb-3">🌙</div>
               <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
@@ -33,7 +33,7 @@ export default function LeseweltPage() {
             </div>
           </a>
 
-          <a href="/abenteuergeschichten" className="group">
+          <a href="/home/abenteuergeschichten" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
               <div className="text-5xl mb-3">⚔️</div>
               <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>

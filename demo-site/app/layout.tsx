@@ -19,7 +19,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               {/* Fluxie Logo */}
-              <a href="/" className="flex items-center hover:opacity-80 transition">
+              <a href="/home/" className="flex items-center hover:opacity-80 transition">
                 <img
                   src="https://fluxie.de/wp-content/uploads/2025/08/fluxietopleft.png"
                   alt="Fluxie Logo"
@@ -31,14 +31,14 @@ export default function RootLayout({
               {/* Navigation Links */}
               <div className="flex gap-6">
                 <a
-                  href="/lesewelt"
+                  href="/home/lesewelt"
                   className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
                 >
                   <span>📚</span>
                   <span>Lesewelt</span>
                 </a>
                 <a
-                  href="/blog"
+                  href="/home/blog"
                   className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
                 >
                   <span>✍️</span>
