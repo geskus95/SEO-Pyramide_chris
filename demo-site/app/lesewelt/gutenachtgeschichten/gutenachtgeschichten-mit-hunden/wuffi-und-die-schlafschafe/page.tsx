@@ -211,7 +211,7 @@ export default function WuffiUndDieSchlafschafePage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/gutenachtgeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/gutenachtgeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Gutenachtgeschichten
                 </a>
               </li>
@@ -219,7 +219,7 @@ export default function WuffiUndDieSchlafschafePage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Mit Hunden
                 </a>
               </li>
@@ -446,7 +446,7 @@ export default function WuffiUndDieSchlafschafePage() {
           {/* Zurück-Button */}
           <div className="mb-12">
             <a
-              href="/home/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
+              href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
               className="inline-flex items-center font-medium hover:opacity-80 transition"
               style={{ color: '#f77f00' }}
             >
@@ -530,7 +530,7 @@ export default function WuffiUndDieSchlafschafePage() {
                   Gibt es weitere Gutenachtgeschichten mit Hunden auf Fluxie?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Ja! In unserer Rubrik <a href="/home/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
+                  Ja! In unserer Rubrik <a href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
                   "Gutenachtgeschichten mit Hunden"</a> finden Sie weitere <strong>Hundegeschichten für Kinder</strong> zum kostenlosen
                   Vorlesen. Wir erweitern die Sammlung regelmäßig um neue <strong>Einschlafgeschichten mit Hund</strong>, die speziell
                   für das Alter 3-8 Jahre entwickelt wurden. Schauen Sie gerne regelmäßig vorbei!
@@ -546,7 +546,7 @@ export default function WuffiUndDieSchlafschafePage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <a
-                href="/home/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
+                href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🐕✨</div>

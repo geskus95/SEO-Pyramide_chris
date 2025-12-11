@@ -179,7 +179,7 @@ export default function PiratenAbenteuerPage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/abenteuergeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/abenteuergeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Abenteuergeschichten
                 </a>
               </li>
@@ -223,7 +223,7 @@ export default function PiratenAbenteuerPage() {
             <div className="grid md:grid-cols-3 gap-6">
               {/* Story 1 - Pete */}
               <a
-                href="/home/abenteuergeschichten/pete-der-lachende-piraten-papagei"
+                href="/home/lesewelt/abenteuergeschichten/pete-der-lachende-piraten-papagei"
                 className="block group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
