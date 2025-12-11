@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Leseförderung & Tipps | Fluxie</title>
-    <meta name="description" content="Tipps zur Leseförderung, LRS, Vorlesen und mehr">
+    <title>Fluxie Blog – Tipps für Leseförderung</title>
+    <meta name="description" content="Expertentipps zu Leseförderung, LRS, Vorlesen und mehr. Praktische Ratschläge für Eltern von Leseanfängern.">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
@@ -13,6 +13,7 @@
     </style>
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg">
         <div class="container mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
@@ -25,36 +26,71 @@
         </div>
     </nav>
 
+    <!-- Main Content -->
     <main class="min-h-screen bg-gray-50">
         <div class="container mx-auto px-4 py-12">
             <div class="max-w-4xl mx-auto">
-                <h1 class="text-5xl font-bold text-center mb-6 text-indigo-600">
-                    ✍️ Blog
+                <!-- Breadcrumb -->
+                <nav class="mb-8 text-sm text-gray-600">
+                    <a href="/lesewelt/" class="hover:text-indigo-600">Home</a>
+                    <span class="mx-2">›</span>
+                    <span>Blog</span>
+                </nav>
+
+                <!-- Hero -->
+                <h1 class="text-4xl font-bold mb-4 text-indigo-600">
+                    ✍️ Fluxie Blog – Tipps für Leseförderung
                 </h1>
-                <p class="text-xl text-center text-gray-600 mb-12">
-                    Tipps zur Leseförderung, LRS, Vorlesen und mehr
+                <p class="text-lg text-gray-600 mb-12">
+                    Expertentipps zu Leseförderung, LRS, Vorlesen und mehr. Praktische Ratschläge
+                    für Eltern von Leseanfängern.
                 </p>
 
+                <!-- Fluxie-Produkt-Box -->
+                <div class="bg-gradient-to-r from-indigo-100 to-purple-100 rounded-xl p-6 mb-12 border-2 border-indigo-200">
+                    <div class="flex items-start gap-6">
+                        <div class="bg-white p-4 rounded-lg shadow-md flex-shrink-0">
+                            <div class="text-6xl">🎴</div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 text-indigo-600">
+                                Leseförderung mit Fluxie
+                            </h3>
+                            <p class="text-gray-700 mb-4">
+                                Wie Tonies, aber fürs Lesen! Spielerisch Lesen lernen mit interaktiven Lesekarten.
+                            </p>
+                            <a
+                                href="https://fluxie.de/produkt/pionierset/"
+                                class="inline-block bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition font-medium"
+                            >
+                                Jetzt entdecken →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kategorien-Grid -->
+                <h2 class="text-2xl font-bold mb-6 text-gray-800">Kategorien</h2>
                 <div class="grid md:grid-cols-2 gap-6">
                     <a href="/lesewelt/blog/vorlesen/" class="group">
-                        <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all transform hover:-translate-y-1">
-                            <div class="text-5xl mb-4">📖</div>
-                            <h2 class="text-2xl font-bold mb-3 text-indigo-600 group-hover:text-indigo-700">
+                        <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
+                            <div class="text-5xl mb-3">📖</div>
+                            <h3 class="text-xl font-bold mb-2 text-indigo-600 group-hover:text-indigo-700">
                                 Vorlesen
-                            </h2>
+                            </h3>
                             <p class="text-gray-600">
-                                Praktische Tipps fürs Vorlesen und Geschichtenerzählen
+                                Tipps und Tricks für gelungene Vorlesestunden mit Kindern
                             </p>
                         </div>
                     </a>
 
-                    <div class="bg-white rounded-xl shadow-lg p-8 opacity-60">
-                        <div class="text-5xl mb-4">🎯</div>
-                        <h2 class="text-2xl font-bold mb-3 text-gray-600">
-                            Leseförderung
-                        </h2>
+                    <div class="bg-gray-100 rounded-xl p-6 opacity-60">
+                        <div class="text-5xl mb-3">📚</div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-600">
+                            Weitere Kategorien folgen...
+                        </h3>
                         <p class="text-gray-500">
-                            Coming Soon...
+                            LRS, Leseförderung und mehr – bald verfügbar!
                         </p>
                     </div>
                 </div>
@@ -62,6 +98,7 @@
         </div>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8 mt-12">
         <div class="container mx-auto px-4 text-center">
             <p>© 2025 Fluxie - Interaktive Lesekarten für Kinder</p>
