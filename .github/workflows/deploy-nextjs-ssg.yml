@@ -3,7 +3,7 @@ name: Deploy Next.js SSG to Netcup via SFTP
 on:
   push:
     branches:
-      - claude/test-github-actions-deployment-01UTjZ8NYDykqCy9HpiNtrGv
+      - claude/plan-seo-structure-01QZFruPp9PPTeauLDF2Q3Fk  # Default Branch - automatisches Deployment nach Merge
 
 jobs:
   build-and-deploy:
