@@ -22,7 +22,7 @@ export default function Home() {
             </div>
           </a>
 
-          <a href="/blog" className="group">
+          <a href="/lesewelt/blog" className="group">
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all transform hover:-translate-y-1">
               <div className="text-6xl mb-4">✍️</div>
               <h2 className="text-2xl font-bold mb-3 text-fluxie-orange group-hover:text-amber-600">

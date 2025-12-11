@@ -6,7 +6,7 @@ export default function VorlesenPage() {
         <nav className="mb-8 text-sm text-gray-600">
           <a href="/" className="hover:text-fluxie-orange">Home</a>
           <span className="mx-2">›</span>
-          <a href="/blog" className="hover:text-fluxie-orange">Blog</a>
+          <a href="/lesewelt/blog" className="hover:text-fluxie-orange">Blog</a>
           <span className="mx-2">›</span>
           <span>Vorlesen</span>
         </nav>
@@ -46,7 +46,7 @@ export default function VorlesenPage() {
         {/* Artikel-Liste */}
         <h2 className="text-2xl font-bold mb-6 text-gray-800">Artikel</h2>
         <div className="space-y-6">
-          <a href="/blog/vorlesen/leseecke-einrichten-tipps" className="block group">
+          <a href="/lesewelt/blog/vorlesen/leseecke-einrichten-tipps" className="block group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all">
               <div className="flex items-start gap-4">
                 <div className="text-5xl">🏡</div>
