@@ -44,7 +44,7 @@ export default function BlogPage() {
         {/* Kategorien-Grid */}
         <h2 className="text-2xl font-bold mb-6 text-gray-800">Kategorien</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <a href="/blog/vorlesen" className="group">
+          <a href="/home/blog/vorlesen/" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
               <div className="text-5xl mb-3">📖</div>
               <h3 className="text-xl font-bold mb-2 text-fluxie-orange group-hover:text-amber-600">
