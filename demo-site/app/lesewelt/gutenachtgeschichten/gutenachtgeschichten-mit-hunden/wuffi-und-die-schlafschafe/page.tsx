@@ -447,8 +447,7 @@ export default function WuffiUndDieSchlafschafePage() {
           <div className="mb-12">
             <a
               href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
-              className="inline-flex items-center font-medium hover:opacity-80 transition"
-              className="text-fluxie-orange"
+              className="inline-flex items-center font-medium hover:opacity-80 transition text-fluxie-orange"
             >
               ← Zurück zu allen Hundegeschichten
             </a>
