@@ -13,9 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body style={{ backgroundColor: '#fff8f0' }}>
+      <body className="bg-fluxie-cream">
         {/* Header mit Fluxie Branding */}
-        <nav style={{ backgroundColor: '#003049' }} className="text-white shadow-lg">
+        <nav className="bg-fluxie-blue text-white shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               {/* Fluxie Logo */}
@@ -59,12 +59,12 @@ export default function RootLayout({
         </nav>
 
         {/* Main Content mit Custom Background */}
-        <main className="min-h-screen" style={{ backgroundColor: '#fff8f0' }}>
+        <main className="min-h-screen bg-fluxie-cream">
           {children}
         </main>
 
         {/* Footer mit Fluxie Branding */}
-        <footer style={{ backgroundColor: '#003049' }} className="text-white py-8 mt-12">
+        <footer className="bg-fluxie-blue text-white py-8 mt-12">
           <div className="container mx-auto px-4">
             <div className="text-center">
               <p className="mb-2 font-medium">© 2025 Fluxie - Interaktive Lesekarten für Kinder</p>

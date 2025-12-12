@@ -9,6 +9,11 @@ module.exports = {
     extend: {
       colors: {
         'fluxie-orange': '#f77f00',
+        'fluxie-blue': '#003049',
+        'fluxie-cream': '#fff8f0',
+      },
+      fontFamily: {
+        'caprasimo': ['Caprasimo', 'cursive'],
       },
     },
   },

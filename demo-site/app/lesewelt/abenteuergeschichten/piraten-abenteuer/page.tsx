@@ -167,19 +167,19 @@ export default function PiratenAbenteuerPage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/home/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
+                <a href="/home/" className="hover:opacity-80 transition text-fluxie-orange">Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition text-fluxie-orange">Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/abenteuergeschichten/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/abenteuergeschichten/" className="hover:opacity-80 transition text-fluxie-orange">
                   Abenteuergeschichten
                 </a>
               </li>
@@ -194,7 +194,7 @@ export default function PiratenAbenteuerPage() {
 
           {/* Header mit Intro */}
           <header className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#f77f00' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange">
               🏴‍☠️ Piraten Abenteuergeschichten für Kinder
             </h1>
 
@@ -229,7 +229,7 @@ export default function PiratenAbenteuerPage() {
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <div className="flex flex-col h-full">
                     <div className="text-6xl mb-4 text-center">🦜🏴‍☠️</div>
-                    <h3 className="text-xl font-bold mb-3 group-hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                    <h3 className="text-xl font-bold mb-3 group-hover:opacity-80 transition text-fluxie-orange">
                       Pete der lachende Piraten Papagei
                     </h3>
                     <p className="text-gray-600 mb-4 flex-grow">
@@ -241,7 +241,7 @@ export default function PiratenAbenteuerPage() {
                       <div>⏱️ 8 Min. Lesezeit</div>
                       <div>😄 Lustig & Lehrreich</div>
                     </div>
-                    <span className="font-medium group-hover:underline" style={{ color: '#f77f00' }}>
+                    <span className="font-medium group-hover:underline text-fluxie-orange">
                       Jetzt lesen →
                     </span>
                   </div>
@@ -297,7 +297,7 @@ export default function PiratenAbenteuerPage() {
           </section>
 
           {/* Krümmelbrandt Produktbox */}
-          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg border-fluxie-orange">
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -314,7 +314,7 @@ export default function PiratenAbenteuerPage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-2xl font-bold mb-3 text-fluxie-orange">
                   Noch mehr Abenteuer mit Krümmelbrandt
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -469,7 +469,7 @@ export default function PiratenAbenteuerPage() {
 
           {/* Tipps-Sektion */}
           <section className="mb-12 bg-orange-50 rounded-xl p-8 border-2 border-orange-100">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mb-4 text-fluxie-orange">
               💡 Tipps zum Vorlesen von Piratengeschichten
             </h2>
             <ul className="space-y-2 text-gray-700">
@@ -489,7 +489,7 @@ export default function PiratenAbenteuerPage() {
 
             <div className="space-y-6">
               {/* Frage 1 */}
-              <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
+              <div className="border-l-4 pl-4 border-l-fluxie-orange">
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
                   Warum sind Piratengeschichten gut für Kinder?
                 </h3>
@@ -501,7 +501,7 @@ export default function PiratenAbenteuerPage() {
               </div>
 
               {/* Frage 2 */}
-              <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
+              <div className="border-l-4 pl-4 border-l-fluxie-orange">
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
                   Ab welchem Alter sind Piratengeschichten geeignet?
                 </h3>
@@ -514,7 +514,7 @@ export default function PiratenAbenteuerPage() {
               </div>
 
               {/* Frage 3 */}
-              <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
+              <div className="border-l-4 pl-4 border-l-fluxie-orange">
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
                   Wie lange dauert das Vorlesen einer Piratengeschichte?
                 </h3>
@@ -538,7 +538,7 @@ export default function PiratenAbenteuerPage() {
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🏰🛡️</div>
-                <h3 className="text-xl font-bold mb-2" style={{ color: '#f77f00' }}>Ritter-Abenteuer</h3>
+                <h3 className="text-xl font-bold mb-2 text-fluxie-orange">Ritter-Abenteuer</h3>
                 <p className="text-gray-600">Spannende Geschichten über tapfere Ritter und mutige Heldentaten</p>
               </a>
 
@@ -547,7 +547,7 @@ export default function PiratenAbenteuerPage() {
                 className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 hover:shadow-lg transition-shadow border-2 border-fluxie-orange"
               >
                 <div className="text-5xl mb-3">⚔️✨</div>
-                <h3 className="text-xl font-bold mb-2" style={{ color: '#f77f00' }}>Alle Abenteuergeschichten</h3>
+                <h3 className="text-xl font-bold mb-2 text-fluxie-orange">Alle Abenteuergeschichten</h3>
                 <p className="text-gray-600">Entdecke noch mehr spannende Abenteuer</p>
               </a>
             </div>

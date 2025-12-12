@@ -193,19 +193,19 @@ export default function PeteDerLachendePiratenPapageiPage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/home/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
+                <a href="/home/" className="hover:opacity-80 transition text-fluxie-orange">Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition text-fluxie-orange">Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/abenteuergeschichten/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/abenteuergeschichten/" className="hover:opacity-80 transition text-fluxie-orange">
                   Abenteuergeschichten
                 </a>
               </li>
@@ -220,7 +220,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
 
           {/* Artikel-Header */}
           <header className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#f77f00' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange">
               Pete der lachende Piraten Papagei 🦜
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
@@ -233,7 +233,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
           </header>
 
           {/* Teaser */}
-          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg" style={{ borderLeftColor: '#f77f00' }}>
+          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg border-l-fluxie-orange">
             <p className="text-lg text-gray-700 italic leading-relaxed">
               Pete, der bunte Papagei mit dem lustigsten Lachen der Karibik, segelt mit Kapitän Rotbart
               auf Schatzsuche. Doch als sie endlich die geheimnisvolle Schatzinsel erreichen, wartet
@@ -359,7 +359,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
           </div>
 
           {/* Krümmelbrandt Produktbox */}
-          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg border-fluxie-orange">
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -376,7 +376,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-2xl font-bold mb-3 text-fluxie-orange">
                   Noch mehr Abenteuer mit Krümmelbrandt
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -401,7 +401,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
           </div>
 
           {/* Outro: Warum Piratengeschichten perfekt für Kinder sind */}
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4 border-l-fluxie-orange">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
               Warum Piratengeschichten perfekt für Kinder sind
             </h2>
@@ -441,7 +441,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
             <a
               href="/home/lesewelt/abenteuergeschichten"
               className="inline-flex items-center font-medium hover:opacity-80 transition"
-              style={{ color: '#f77f00' }}
+              className="text-fluxie-orange"
             >
               ← Zurück zu allen Abenteuergeschichten
             </a>
@@ -455,7 +455,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
             <div className="space-y-6">
               {/* FAQ 1 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Ab welchem Alter eignet sich diese Piratengeschichte für Kinder?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -468,7 +468,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
 
               {/* FAQ 2 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Wie lange dauert es, diese Piratengeschichte vorzulesen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -480,7 +480,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
 
               {/* FAQ 3 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Warum sind Piratengeschichten gut für Kinder?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -493,7 +493,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
 
               {/* FAQ 4 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Ist die Geschichte zu spannend vor dem Schlafengehen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -506,7 +506,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
 
               {/* FAQ 5 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Welche Botschaft vermittelt "Pete der lachende Piraten Papagei"?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -519,11 +519,11 @@ export default function PeteDerLachendePiratenPapageiPage() {
 
               {/* FAQ 6 */}
               <div>
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Gibt es weitere Abenteuergeschichten auf Fluxie?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Ja! In unserer Rubrik <a href="/home/lesewelt/abenteuergeschichten/" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
+                  Ja! In unserer Rubrik <a href="/home/lesewelt/abenteuergeschichten/" className="font-semibold hover:opacity-80 text-fluxie-orange">
                   "Abenteuergeschichten"</a> finden Sie weitere spannende Geschichten für kleine Entdecker zum kostenlosen
                   Vorlesen. Wir erweitern die Sammlung regelmäßig um neue <strong>Piratengeschichten</strong> und andere
                   Abenteuer, die speziell für das Alter 4-10 Jahre entwickelt wurden. Schauen Sie gerne regelmäßig vorbei!
@@ -543,7 +543,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🛡️🏰</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Der kleinste Ritter aller Zeiten</h3>
+                <h3 className="font-bold mb-2 text-fluxie-orange">Der kleinste Ritter aller Zeiten</h3>
                 <p className="text-sm text-gray-600">Eine zauberhafte Geschichte über Mut und wahre Größe</p>
               </a>
 
@@ -552,7 +552,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🏴‍☠️⚓</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Piraten-Abenteuer</h3>
+                <h3 className="font-bold mb-2 text-fluxie-orange">Piraten-Abenteuer</h3>
                 <p className="text-sm text-gray-600">Alle spannenden Piratengeschichten entdecken</p>
               </a>
 
@@ -561,7 +561,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 hover:shadow-lg transition-shadow border-2 border-fluxie-orange"
               >
                 <div className="text-5xl mb-3">⚔️✨</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Alle Abenteuergeschichten</h3>
+                <h3 className="font-bold mb-2 text-fluxie-orange">Alle Abenteuergeschichten</h3>
                 <p className="text-sm text-gray-600">Entdecke noch mehr spannende Abenteuer</p>
               </a>
             </div>

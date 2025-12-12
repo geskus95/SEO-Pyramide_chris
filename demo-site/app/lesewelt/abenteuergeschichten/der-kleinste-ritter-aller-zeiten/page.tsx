@@ -193,19 +193,19 @@ export default function DerKleinsteRitterPage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/home/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
+                <a href="/home/" className="hover:opacity-80 transition text-fluxie-orange">Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition text-fluxie-orange">Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/abenteuergeschichten/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/abenteuergeschichten/" className="hover:opacity-80 transition text-fluxie-orange">
                   Abenteuergeschichten
                 </a>
               </li>
@@ -220,7 +220,7 @@ export default function DerKleinsteRitterPage() {
 
           {/* Artikel-Header */}
           <header className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#f77f00' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange">
               Der kleinste Ritter aller Zeiten 🐭🛡️
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
@@ -233,7 +233,7 @@ export default function DerKleinsteRitterPage() {
           </header>
 
           {/* Teaser */}
-          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg" style={{ borderLeftColor: '#f77f00' }}>
+          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg border-l-fluxie-orange">
             <p className="text-lg text-gray-700 italic leading-relaxed">
               Rittermaus Kunibert ist die kleinste Rittermaus im ganzen Königreich. Mit ihrer blauen
               Ritterrüstung und dem roten Umhang wohnt sie auf Burg Hochenstein. Alle großen Ritter
@@ -253,7 +253,7 @@ export default function DerKleinsteRitterPage() {
 
           {/* Story-Text */}
           <div className="prose prose-lg max-w-none mb-12">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mb-4 text-fluxie-orange">
               Die Geschichte beginnt...
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -272,7 +272,7 @@ export default function DerKleinsteRitterPage() {
               Käse des ganzen Landes!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
               Der bunte Drache kommt!
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -293,7 +293,7 @@ export default function DerKleinsteRitterPage() {
               Keiner wollte dem hungrigen Drachen begegnen!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
               Kuniberts käsiger Plan
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -320,7 +320,7 @@ export default function DerKleinsteRitterPage() {
               Korridor, und schließlich zu einer ganz besonderen Tür: der winzigen Tür zur Käsekammer!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
               Die clevere Lösung
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -346,7 +346,7 @@ export default function DerKleinsteRitterPage() {
               Kleines einem Großen hilft! So, hier ist dein Käse – der beste im ganzen Königreich!"</strong>
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
               Das glückliche Ende
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -378,7 +378,7 @@ export default function DerKleinsteRitterPage() {
           </div>
 
           {/* Krümmelbrandt Produktbox */}
-          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg border-fluxie-orange">
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -395,7 +395,7 @@ export default function DerKleinsteRitterPage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-2xl font-bold mb-3 text-fluxie-orange">
                   Noch mehr Abenteuer mit Krümmelbrandt
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -421,7 +421,7 @@ export default function DerKleinsteRitterPage() {
           </div>
 
           {/* Outro: Warum Rittergeschichten perfekt für Kinder sind */}
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4 border-l-fluxie-orange">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
               Warum Rittergeschichten mit Freundschaft perfekt für Kinder sind
             </h2>
@@ -463,7 +463,7 @@ export default function DerKleinsteRitterPage() {
             <a
               href="/home/lesewelt/abenteuergeschichten/"
               className="inline-flex items-center font-medium hover:opacity-80 transition"
-              style={{ color: '#f77f00' }}
+              className="text-fluxie-orange"
             >
               ← Zurück zu allen Abenteuergeschichten
             </a>
@@ -477,7 +477,7 @@ export default function DerKleinsteRitterPage() {
             <div className="space-y-6">
               {/* FAQ 1 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Ab welchem Alter eignet sich diese Rittergeschichte für Kinder?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -491,7 +491,7 @@ export default function DerKleinsteRitterPage() {
 
               {/* FAQ 2 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Wie lange dauert es, diese Rittergeschichte vorzulesen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -504,7 +504,7 @@ export default function DerKleinsteRitterPage() {
 
               {/* FAQ 3 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Warum sind Rittergeschichten gut für Kinder?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -518,7 +518,7 @@ export default function DerKleinsteRitterPage() {
 
               {/* FAQ 4 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Ist die Geschichte zu spannend vor dem Schlafengehen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -532,7 +532,7 @@ export default function DerKleinsteRitterPage() {
 
               {/* FAQ 5 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Welche Botschaft vermittelt die Geschichte vom kleinsten Ritter?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -546,11 +546,11 @@ export default function DerKleinsteRitterPage() {
 
               {/* FAQ 6 */}
               <div>
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Gibt es weitere Abenteuergeschichten auf Fluxie?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Ja! In unserer Rubrik <a href="/home/lesewelt/abenteuergeschichten/" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
+                  Ja! In unserer Rubrik <a href="/home/lesewelt/abenteuergeschichten/" className="font-semibold hover:opacity-80 text-fluxie-orange">
                   "Abenteuergeschichten"</a> finden Sie weitere spannende Geschichten für kleine
                   Entdecker zum kostenlosen Vorlesen. Von Piratenabenteuern bis zu anderen mutigen
                   Helden – wir erweitern die Sammlung regelmäßig um neue <strong>Rittergeschichten</strong>
@@ -572,7 +572,7 @@ export default function DerKleinsteRitterPage() {
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🏰🛡️</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Alle Ritter-Abenteuer</h3>
+                <h3 className="font-bold mb-2 text-fluxie-orange">Alle Ritter-Abenteuer</h3>
                 <p className="text-sm text-gray-600">Entdecke noch mehr spannende Rittergeschichten</p>
               </a>
 
@@ -581,7 +581,7 @@ export default function DerKleinsteRitterPage() {
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🦜🏴‍☠️</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Pete der lachende Piraten-Papagei</h3>
+                <h3 className="font-bold mb-2 text-fluxie-orange">Pete der lachende Piraten-Papagei</h3>
                 <p className="text-sm text-gray-600">Ein lustiges Piraten-Abenteuer mit einem Papagei, der nicht aufhören kann zu lachen!</p>
               </a>
 
@@ -590,7 +590,7 @@ export default function DerKleinsteRitterPage() {
                 className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 hover:shadow-lg transition-shadow border-2 border-fluxie-orange"
               >
                 <div className="text-5xl mb-3">⚔️✨</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Alle Abenteuergeschichten</h3>
+                <h3 className="font-bold mb-2 text-fluxie-orange">Alle Abenteuergeschichten</h3>
                 <p className="text-sm text-gray-600">Entdecke noch mehr spannende Abenteuer</p>
               </a>
             </div>
