@@ -248,28 +248,32 @@ export default function PiratenAbenteuerPage() {
                 </article>
               </a>
 
-              {/* Story 2 - Placeholder */}
-              <div className="block">
-                <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
+              {/* Story 2 - Knight Story */}
+              <a
+                href="/home/lesewelt/abenteuergeschichten/der-kleinste-ritter-aller-zeiten/"
+                className="block group"
+              >
+                <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center opacity-50">⚓🗺️</div>
-                    <h3 className="text-xl font-bold mb-3 text-gray-500">
-                      Käpt'n Blaubart und die Schatzkarte
+                    <div className="text-6xl mb-4 text-center">🛡️🏰</div>
+                    <h3 className="text-xl font-bold mb-3 group-hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                      Der kleinste Ritter aller Zeiten
                     </h3>
-                    <p className="text-gray-500 mb-4 flex-grow">
-                      Eine spannende Geschichte über einen mutigen Kapitän und seine Crew
-                      auf der Suche nach dem legendären Goldschatz.
+                    <p className="text-gray-600 mb-4 flex-grow">
+                      Ritter Kunibert ist klein, aber mit Cleverness und Mut beweist er,
+                      dass wahre Größe von innen kommt. Ein Abenteuer über Selbstvertrauen!
                     </p>
-                    <div className="space-y-2 text-sm text-gray-400 mb-4">
-                      <div>👶 Ab 4 Jahren</div>
-                      <div>⏱️ 9 Min. Lesezeit</div>
+                    <div className="space-y-2 text-sm text-gray-500 mb-4">
+                      <div>👶 Ab 5 Jahren</div>
+                      <div>⏱️ 8-10 Min. Lesezeit</div>
+                      <div>🏰 Mutig & Inspirierend</div>
                     </div>
-                    <span className="text-gray-400 font-medium italic">
-                      Bald verfügbar
+                    <span className="font-medium group-hover:underline" style={{ color: '#f77f00' }}>
+                      Jetzt lesen →
                     </span>
                   </div>
                 </article>
-              </div>
+              </a>
 
               {/* Story 3 - Placeholder */}
               <div className="block">
