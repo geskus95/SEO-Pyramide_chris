@@ -205,13 +205,13 @@ export default function WuffiUndDieSchlafschafePage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/gutenachtgeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/gutenachtgeschichten/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Gutenachtgeschichten
                 </a>
               </li>

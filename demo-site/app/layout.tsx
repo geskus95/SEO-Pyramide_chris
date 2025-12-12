@@ -31,14 +31,14 @@ export default function RootLayout({
               {/* Navigation Links */}
               <div className="flex gap-6">
                 <a
-                  href="/home/lesewelt"
+                  href="/home/lesewelt/"
                   className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
                 >
                   <span>📚</span>
                   <span>Lesewelt</span>
                 </a>
                 <a
-                  href="/home/blog"
+                  href="/home/blog/"
                   className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
                 >
                   <span>✍️</span>

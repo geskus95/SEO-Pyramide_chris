@@ -1,68 +1,68 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Piraten Abenteuergeschichten – Spannende Piratengeschichten für Kinder | Fluxie',
-  description: 'Aufregende Piraten Abenteuergeschichten ✓ Perfekt zum Vorlesen ✓ Mit mutigen Seefahrern ✓ Kostenlose Piratengeschichten ➤ Jetzt entdecken!',
+  title: 'Ritter Abenteuergeschichten – Spannende Rittergeschichten für Kinder | Fluxie',
+  description: 'Aufregende Ritter Abenteuergeschichten ✓ Perfekt zum Vorlesen ✓ Mit mutigen Rittern & Drachen ✓ Kostenlose Rittergeschichten ➤ Jetzt entdecken!',
   openGraph: {
-    title: 'Piraten Abenteuergeschichten – Spannende Piratengeschichten für Kinder | Fluxie',
-    description: 'Aufregende Piraten Abenteuergeschichten ✓ Perfekt zum Vorlesen ✓ Mit mutigen Seefahrern ✓ Kostenlose Piratengeschichten',
-    url: 'https://fluxie.de/lesewelt/abenteuergeschichten/piraten-abenteuer',
+    title: 'Ritter Abenteuergeschichten – Spannende Rittergeschichten für Kinder | Fluxie',
+    description: 'Aufregende Ritter Abenteuergeschichten ✓ Perfekt zum Vorlesen ✓ Mit mutigen Rittern & Drachen ✓ Kostenlose Rittergeschichten',
+    url: 'https://wunschturm.de/home/lesewelt/abenteuergeschichten/ritter-abenteuer',
     siteName: 'Fluxie',
     locale: 'de_DE',
     type: 'website',
     images: [
       {
-        url: 'https://fluxie.de/images/piraten-abenteuer-og.jpg',
+        url: 'https://fluxie.de/wp-content/uploads/2025/12/RitterKunibert_002.webp',
         width: 1200,
         height: 630,
-        alt: 'Piraten Abenteuergeschichten für Kinder'
+        alt: 'Ritter Abenteuergeschichten für Kinder'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Piraten Abenteuergeschichten – Spannende Piratengeschichten für Kinder',
-    description: 'Aufregende Piraten Abenteuergeschichten ✓ Perfekt zum Vorlesen ✓ Mit mutigen Seefahrern',
-    images: ['https://fluxie.de/images/piraten-abenteuer-og.jpg']
+    title: 'Ritter Abenteuergeschichten – Spannende Rittergeschichten für Kinder',
+    description: 'Aufregende Ritter Abenteuergeschichten ✓ Perfekt zum Vorlesen ✓ Mit mutigen Rittern & Drachen',
+    images: ['https://fluxie.de/wp-content/uploads/2025/12/RitterKunibert_002.webp']
   },
   robots: {
     index: true,
     follow: true
   },
   alternates: {
-    canonical: 'https://fluxie.de/lesewelt/abenteuergeschichten/piraten-abenteuer'
+    canonical: 'https://wunschturm.de/home/lesewelt/abenteuergeschichten/ritter-abenteuer'
   }
 }
 
-export default function PiratenAbenteuerPage() {
+export default function RitterAbenteuerPage() {
   // Schema.org JSON-LD Strukturierte Daten
   const collectionPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "Piraten Abenteuergeschichten",
-    "description": "Sammlung spannender Piraten Abenteuergeschichten zum Vorlesen für Kinder ab 4 Jahren.",
-    "url": "https://fluxie.de/lesewelt/abenteuergeschichten/piraten-abenteuer",
+    "name": "Ritter Abenteuergeschichten",
+    "description": "Sammlung spannender Ritter Abenteuergeschichten zum Vorlesen für Kinder ab 5 Jahren.",
+    "url": "https://wunschturm.de/home/lesewelt/abenteuergeschichten/ritter-abenteuer",
     "mainEntity": {
       "@type": "ItemList",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Pete der lachende Piraten Papagei",
-          "url": "https://fluxie.de/lesewelt/abenteuergeschichten/pete-der-lachende-piraten-papagei"
+          "name": "Der kleinste Ritter aller Zeiten",
+          "url": "https://wunschturm.de/home/lesewelt/abenteuergeschichten/der-kleinste-ritter-aller-zeiten"
         }
       ]
     },
     "audience": {
       "@type": "PeopleAudience",
-      "suggestedMinAge": 4,
+      "suggestedMinAge": 5,
       "suggestedMaxAge": 10
     },
     "inLanguage": "de-DE",
     "isPartOf": {
       "@type": "WebPage",
       "name": "Abenteuergeschichten",
-      "url": "https://fluxie.de/lesewelt/abenteuergeschichten"
+      "url": "https://wunschturm.de/home/lesewelt/abenteuergeschichten"
     }
   }
 
@@ -74,25 +74,25 @@ export default function PiratenAbenteuerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fluxie.de"
+        "item": "https://wunschturm.de/home/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Lesewelt",
-        "item": "https://fluxie.de/lesewelt"
+        "item": "https://wunschturm.de/home/lesewelt"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Abenteuergeschichten",
-        "item": "https://fluxie.de/lesewelt/abenteuergeschichten"
+        "item": "https://wunschturm.de/home/lesewelt/abenteuergeschichten"
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "name": "Piraten Abenteuer",
-        "item": "https://fluxie.de/lesewelt/abenteuergeschichten/piraten-abenteuer"
+        "name": "Ritter Abenteuer",
+        "item": "https://wunschturm.de/home/lesewelt/abenteuergeschichten/ritter-abenteuer"
       }
     ]
   }
@@ -116,26 +116,26 @@ export default function PiratenAbenteuerPage() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Warum sind Piratengeschichten gut für Kinder?",
+        "name": "Warum sind Rittergeschichten gut für Kinder?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Piratengeschichten fördern Mut, Abenteuerlust und Problemlösungsfähigkeiten bei Kindern. Sie vermitteln wichtige Werte wie Teamwork, Freundschaft und Cleverness. Die spannenden Geschichten regen die Fantasie an und helfen Kindern, selbstbewusster zu werden."
+          "text": "Rittergeschichten fördern Mut, Ehrgefühl und Selbstvertrauen bei Kindern. Sie vermitteln wichtige Werte wie Tapferkeit, Fairness und Hilfsbereitschaft. Die spannenden Geschichten regen die Fantasie an und helfen Kindern, über sich hinauszuwachsen."
         }
       },
       {
         "@type": "Question",
-        "name": "Ab welchem Alter sind Piratengeschichten geeignet?",
+        "name": "Ab welchem Alter sind Rittergeschichten geeignet?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Unsere Piraten Abenteuergeschichten sind für Kinder ab 4 Jahren konzipiert. Die Geschichten sind altersgerecht spannend gestaltet und können bis ins Grundschulalter (ca. 10 Jahre) vorgelesen werden. Jüngere Kinder profitieren besonders vom gemeinsamen Vorlesen und der aufregenden Atmosphäre."
+          "text": "Unsere Ritter Abenteuergeschichten sind für Kinder ab 5 Jahren konzipiert. Die Geschichten sind altersgerecht spannend gestaltet und können bis ins Grundschulalter (ca. 10 Jahre) vorgelesen werden. Jüngere Kinder profitieren besonders vom gemeinsamen Vorlesen und der aufregenden Atmosphäre."
         }
       },
       {
         "@type": "Question",
-        "name": "Wie lange dauert das Vorlesen einer Piratengeschichte?",
+        "name": "Wie lange dauert das Vorlesen einer Rittergeschichte?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Die meisten unserer Piratengeschichten haben eine Vorlesedauer von etwa 7-10 Minuten. Diese Länge ist ideal für das Vorlesen am Nachmittag oder als Abendritual, da sie spannend genug ist für ein Abenteuer, aber nicht zu lang für die Aufmerksamkeitsspanne von Kindern."
+          "text": "Die meisten unserer Rittergeschichten haben eine Vorlesedauer von etwa 8-10 Minuten. Diese Länge ist ideal für das Vorlesen am Nachmittag oder als Abendritual, da sie spannend genug ist für ein Abenteuer, aber nicht zu lang für die Aufmerksamkeitsspanne von Kindern."
         }
       }
     ]
@@ -187,7 +187,7 @@ export default function PiratenAbenteuerPage() {
                 <span className="mx-2">›</span>
               </li>
               <li aria-current="page">
-                <span className="text-gray-900">Piraten Abenteuer</span>
+                <span className="text-gray-900">Ritter Abenteuer</span>
               </li>
             </ol>
           </nav>
@@ -195,21 +195,21 @@ export default function PiratenAbenteuerPage() {
           {/* Header mit Intro */}
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#f77f00' }}>
-              🏴‍☠️ Piraten Abenteuergeschichten für Kinder
+              🏰 Ritter Abenteuergeschichten für Kinder
             </h1>
 
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="text-xl leading-relaxed mb-4">
-                Entdecke aufregende <strong>Piraten Abenteuergeschichten</strong>, die kleine Seefahrer
-                auf spannende Reisen über die Weltmeere mitnehmen. Mutige Piraten, geheimnisvolle Schätze
-                und lustige Erlebnisse auf hoher See – hier finden Kinder die perfekten Piratengeschichten
+                Entdecke aufregende <strong>Ritter Abenteuergeschichten</strong>, die kleine Helden
+                in die Welt von Burgen, Drachen und tapferen Rittern entführen. Mutige Ritter, geheimnisvolle
+                Drachen und spannende Abenteuer – hier finden Kinder die perfekten Rittergeschichten
                 zum Vorlesen und Selberlesen.
               </p>
 
               <p className="text-lg leading-relaxed mb-4">
-                Piratengeschichten für Kinder sind besonders beliebt bei kleinen Abenteurern, die das Meer
-                lieben. Die Geschichten vermitteln wichtige Werte wie Mut, Freundschaft und Teamwork – perfekt
-                für das Vorlesen am Nachmittag oder als spannendes Abendritual.
+                Rittergeschichten für Kinder sind besonders beliebt bei kleinen Abenteurern, die Mut und
+                Ehrgefühl bewundern. Die Geschichten vermitteln wichtige Werte wie Tapferkeit, Fairness
+                und Hilfsbereitschaft – perfekt für das Vorlesen am Nachmittag oder als spannendes Abendritual.
               </p>
             </div>
           </header>
@@ -217,29 +217,29 @@ export default function PiratenAbenteuerPage() {
           {/* Story Grid */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
-              Unsere Piraten Abenteuergeschichten
+              Unsere Ritter Abenteuergeschichten
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6">
-              {/* Story 1 - Pete */}
+              {/* Story 1 - Knight */}
               <a
-                href="/home/lesewelt/abenteuergeschichten/pete-der-lachende-piraten-papagei"
+                href="/home/lesewelt/abenteuergeschichten/der-kleinste-ritter-aller-zeiten/"
                 className="block group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center">🦜🏴‍☠️</div>
+                    <div className="text-6xl mb-4 text-center">🛡️🏰</div>
                     <h3 className="text-xl font-bold mb-3 group-hover:opacity-80 transition" style={{ color: '#f77f00' }}>
-                      Pete der lachende Piraten Papagei
+                      Der kleinste Ritter aller Zeiten
                     </h3>
                     <p className="text-gray-600 mb-4 flex-grow">
-                      Pete, der bunte Papagei, segelt mit Kapitän Rotbart auf Schatzsuche.
-                      Eine lustige Geschichte über Freundschaft und wahre Schätze.
+                      Rittermaus Kunibert ist klein, aber mit Cleverness und Mut beweist er,
+                      dass wahre Größe von innen kommt. Ein Abenteuer über Selbstvertrauen!
                     </p>
                     <div className="space-y-2 text-sm text-gray-500 mb-4">
-                      <div>👶 Ab 4 Jahren</div>
-                      <div>⏱️ 8 Min. Lesezeit</div>
-                      <div>😄 Lustig & Lehrreich</div>
+                      <div>👶 Ab 5 Jahren</div>
+                      <div>⏱️ 8-10 Min. Lesezeit</div>
+                      <div>🏰 Mutig & Inspirierend</div>
                     </div>
                     <span className="font-medium group-hover:underline" style={{ color: '#f77f00' }}>
                       Jetzt lesen →
@@ -252,13 +252,13 @@ export default function PiratenAbenteuerPage() {
               <div className="block">
                 <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center opacity-50">⚓🗺️</div>
+                    <div className="text-6xl mb-4 text-center opacity-50">🐉⚔️</div>
                     <h3 className="text-xl font-bold mb-3 text-gray-500">
-                      Kapitän Silberbarts Schatz
+                      Der Drache vom Silberberg
                     </h3>
                     <p className="text-gray-500 mb-4 flex-grow">
-                      Ein junger Matrose begibt sich auf die Suche nach dem legendären
-                      Schatz des verschwundenen Kapitän Silberbart.
+                      Ein mutiger Ritter begegnet einem einsamen Drachen und lernt,
+                      dass Freundschaft stärker ist als jedes Schwert.
                     </p>
                     <div className="space-y-2 text-sm text-gray-400 mb-4">
                       <div>👶 Ab 5 Jahren</div>
@@ -275,17 +275,17 @@ export default function PiratenAbenteuerPage() {
               <div className="block">
                 <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center opacity-50">🏴‍☠️💎</div>
+                    <div className="text-6xl mb-4 text-center opacity-50">👑🏰</div>
                     <h3 className="text-xl font-bold mb-3 text-gray-500">
-                      Die Pirateninsel
+                      Das verzauberte Schloss
                     </h3>
                     <p className="text-gray-500 mb-4 flex-grow">
-                      Auf einer geheimnisvollen Insel warten nicht nur Schätze, sondern auch
-                      neue Freunde und aufregende Abenteuer.
+                      Ein tapferer Ritter muss drei Rätsel lösen, um den Zauber
+                      eines verzauberten Schlosses zu brechen.
                     </p>
                     <div className="space-y-2 text-sm text-gray-400 mb-4">
-                      <div>👶 Ab 5 Jahren</div>
-                      <div>⏱️ 10 Min. Lesezeit</div>
+                      <div>👶 Ab 6 Jahren</div>
+                      <div>⏱️ 12 Min. Lesezeit</div>
                     </div>
                     <span className="text-gray-400 font-medium italic">
                       Bald verfügbar
@@ -319,7 +319,7 @@ export default function PiratenAbenteuerPage() {
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   Krümmelbrandt der Backdrache erlebt ebenfalls spannende Abenteuer! Eine zauberhafte Geschichte
-                  über einen kleinen Drachen, der lieber backt als Feuer speit. Perfekt für alle kleinen Abenteurer!
+                  über einen kleinen Drachen, der lieber backt als Feuer speit. Perfekt für alle kleinen Ritter und Drachenfans!
                 </p>
                 <a
                   href="https://fluxie.de/produkt/kruemelbrandt-der-backdrache/"
@@ -336,49 +336,50 @@ export default function PiratenAbenteuerPage() {
           {/* Content-Block mit H3-Subsections */}
           <section className="mb-12 bg-white rounded-xl p-8 shadow-md">
             <h2 className="text-3xl font-bold mb-8 text-gray-800">
-              Piratengeschichten für Kinder – Mehr als nur Unterhaltung
+              Rittergeschichten für Kinder – Mehr als nur Unterhaltung
             </h2>
 
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
-              {/* H3: Warum Piratengeschichten Kinder faszinieren */}
+              {/* H3: Warum Rittergeschichten Kinder faszinieren */}
               <div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-800">
-                  Warum Piratengeschichten Kinder faszinieren
+                  Warum Rittergeschichten Kinder faszinieren
                 </h3>
                 <p className="leading-relaxed">
-                  Piraten Abenteuergeschichten haben eine besondere Anziehungskraft auf Kinder. Die Vorstellung
-                  von Freiheit auf dem Meer, verborgenen Schätzen und mutigen Seefahrern weckt die Abenteuerlust
-                  in jedem Kind. Piratengeschichten kombinieren Spannung mit Humor und vermitteln dabei wichtige
-                  Werte wie Mut, Zusammenhalt und Cleverness. Die bunten Charaktere, von lustigen Papageien bis
-                  zu weisen Kapitänen, machen jede Geschichte zu einem einzigartigen Erlebnis.
+                  Ritter Abenteuergeschichten haben eine besondere Anziehungskraft auf Kinder. Die Vorstellung
+                  von mutigen Rittern in glänzenden Rüstungen, geheimnisvollen Burgen und feuerspeienden Drachen
+                  weckt die Abenteuerlust in jedem Kind. Rittergeschichten kombinieren Spannung mit wichtigen
+                  Lebenslektionen und vermitteln dabei Werte wie Mut, Ehrgefühl und Hilfsbereitschaft. Die
+                  faszinierenden Charaktere, von tapferen Rittern bis zu weisen Königen, machen jede Geschichte
+                  zu einem einzigartigen Erlebnis.
                 </p>
               </div>
 
               {/* H3: Mut und Selbstvertrauen entwickeln */}
               <div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-800">
-                  Mut und Selbstvertrauen durch Piratengeschichten
+                  Mut und Selbstvertrauen durch Rittergeschichten
                 </h3>
                 <p className="leading-relaxed">
-                  Piratengeschichten für Kinder sind wertvolle Werkzeuge zur Entwicklung von Mut und Selbstvertrauen.
-                  Durch die Identifikation mit mutigen Piraten lernen Kinder, dass Herausforderungen gemeistert
+                  Rittergeschichten für Kinder sind wertvolle Werkzeuge zur Entwicklung von Mut und Selbstvertrauen.
+                  Durch die Identifikation mit tapferen Rittern lernen Kinder, dass Herausforderungen gemeistert
                   werden können. Die Geschichten zeigen, dass es normal ist, manchmal Angst zu haben, aber dass
-                  man diese überwinden kann. Kinder sehen, wie Piratenhelden Probleme kreativ lösen und dabei
-                  nie aufgeben – eine wichtige Lektion fürs Leben.
+                  wahre Tapferkeit darin besteht, trotzdem voranzuschreiten. Kinder sehen, wie Ritterhelden
+                  Probleme kreativ lösen und dabei nie aufgeben – eine wichtige Lektion fürs Leben.
                 </p>
               </div>
 
-              {/* H3: Teamwork und Freundschaft */}
+              {/* H3: Fairness und Ehrgefühl */}
               <div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-800">
-                  Teamwork und Freundschaft auf hoher See
+                  Fairness und Ehrgefühl im Rittertum
                 </h3>
                 <p className="leading-relaxed">
-                  Auf einem Piratenschiff muss jeder zusammenarbeiten. Piraten Abenteuergeschichten vermitteln
-                  Kindern, wie wichtig Teamwork und Freundschaft sind. Die Crew muss zusammenhalten, einander
-                  vertrauen und gemeinsam Herausforderungen meistern. Diese Geschichten zeigen, dass man zusammen
-                  stärker ist und dass echte Freunde füreinander einstehen. Kinder lernen, dass Zusammenhalt
-                  oft wichtiger ist als individueller Erfolg.
+                  Ein wahrer Ritter kämpft fair und hilft den Schwachen. Ritter Abenteuergeschichten vermitteln
+                  Kindern wichtige Werte wie Fairness, Gerechtigkeit und Ehrgefühl. Die Geschichten zeigen, dass
+                  wahre Stärke nicht nur in körperlicher Kraft liegt, sondern auch in Charakterstärke und moralischer
+                  Integrität. Kinder lernen, dass es wichtig ist, für das Richtige einzustehen und anderen zu helfen,
+                  auch wenn es schwierig ist.
                 </p>
               </div>
 
@@ -388,10 +389,10 @@ export default function PiratenAbenteuerPage() {
                   Fantasie und Kreativität anregen
                 </h3>
                 <p className="leading-relaxed">
-                  Die Welt der Piraten ist voller Möglichkeiten für kreatives Denken. Geheimnisvolle Inseln,
-                  versteckte Schätze, sprechende Papageien – Piratengeschichten für Kinder öffnen Türen zu
+                  Die Welt der Ritter ist voller Möglichkeiten für kreatives Denken. Geheimnisvolle Burgen,
+                  verzauberte Wälder, sprechende Drachen – Rittergeschichten für Kinder öffnen Türen zu
                   fantastischen Welten. Diese Geschichten regen die Vorstellungskraft an und ermutigen Kinder,
-                  ihre eigenen Abenteuer zu erfinden. Das Nachspielen von Piratenabenteuern fördert zudem die
+                  ihre eigenen Abenteuer zu erfinden. Das Nachspielen von Ritterabenteuern fördert zudem die
                   soziale Interaktion und das Rollenspiel.
                 </p>
               </div>
@@ -402,64 +403,63 @@ export default function PiratenAbenteuerPage() {
                   Problemlösungsfähigkeiten entwickeln
                 </h3>
                 <p className="leading-relaxed">
-                  Piraten müssen oft clevere Lösungen für knifflige Situationen finden. Ob es darum geht,
-                  eine Schatzkarte zu entziffern oder einen Sturm zu überstehen – Piraten Abenteuergeschichten
+                  Ritter müssen oft clevere Lösungen für knifflige Situationen finden. Ob es darum geht,
+                  ein Rätsel zu lösen oder einen Drachen zu besänftigen – Ritter Abenteuergeschichten
                   zeigen Kindern, wie man kreativ denkt und Probleme löst. Diese Fähigkeiten sind nicht nur
-                  in Geschichten wichtig, sondern auch im echten Leben. Kinder lernen, dass es für jedes
-                  Problem eine Lösung gibt, wenn man nur clever genug darüber nachdenkt.
+                  in Geschichten wichtig, sondern auch im echten Leben. Kinder lernen, dass Intelligenz und
+                  Cleverness oft mächtiger sind als rohe Gewalt.
                 </p>
               </div>
 
-              {/* H3: Humor und Leichtigkeit */}
+              {/* H3: Historisches Interesse wecken */}
               <div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-800">
-                  Humor und Leichtigkeit in Piratengeschichten
+                  Interesse an Geschichte wecken
                 </h3>
                 <p className="leading-relaxed">
-                  Gute Piratengeschichten für Kinder sind nicht nur spannend, sondern auch lustig. Humorvolle
-                  Charaktere wie plappernde Papageien, tollpatschige Matrosen oder Kapitäne mit lustigen
-                  Macken sorgen für Unterhaltung und Spaß. Lachen ist ein wichtiger Bestandteil des Lernens,
-                  und Geschichten, die Kinder zum Lachen bringen, bleiben ihnen besonders lange in Erinnerung.
-                  Der Humor macht die Geschichten leicht verdaulich und sorgt für positive Emotionen.
+                  Rittergeschichten können das Interesse an Geschichte wecken. Auch wenn unsere Geschichten
+                  fantasievoll sind, vermitteln sie ein Gefühl für die Ritterzeit, Burgen und das Leben im
+                  Mittelalter. Dies kann der erste Schritt sein, um Kinder für Geschichte zu begeistern und
+                  ihre Neugier auf andere Zeiten und Kulturen zu wecken.
                 </p>
               </div>
 
               {/* H3: Werte vermitteln */}
               <div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-800">
-                  Wichtige Werte durch Piratengeschichten vermitteln
+                  Wichtige Werte durch Rittergeschichten vermitteln
                 </h3>
                 <p className="leading-relaxed">
-                  Moderne Piraten Abenteuergeschichten für Kinder vermitteln positive Werte. Ehrlichkeit,
-                  Loyalität, Hilfsbereitschaft und Fairness stehen im Mittelpunkt vieler Piratengeschichten.
-                  Kinder lernen, dass wahre Schätze nicht aus Gold bestehen, sondern aus Freundschaft,
-                  Zusammenhalt und gemeinsamen Erlebnissen. Diese Botschaften prägen die Wertvorstellungen
-                  von Kindern und helfen ihnen, zu empathischen und sozialen Menschen heranzuwachsen.
+                  Moderne Ritter Abenteuergeschichten für Kinder vermitteln zeitlose Werte. Tapferkeit,
+                  Loyalität, Hilfsbereitschaft und Fairness stehen im Mittelpunkt vieler Rittergeschichten.
+                  Kinder lernen, dass wahre Helden nicht nur stark sind, sondern auch gütig und gerecht.
+                  Diese Botschaften prägen die Wertvorstellungen von Kindern und helfen ihnen, zu empathischen
+                  und verantwortungsbewussten Menschen heranzuwachsen.
                 </p>
               </div>
 
               {/* H3: Praktische Tipps für Eltern */}
               <div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-800">
-                  Tipps für das Vorlesen von Piratengeschichten
+                  Tipps für das Vorlesen von Rittergeschichten
                 </h3>
                 <p className="leading-relaxed">
-                  Machen Sie das Vorlesen zum Abenteuer! Verwenden Sie verschiedene Stimmen für Kapitäne,
-                  Papageien und Matrosen. Bauen Sie Spannung auf, indem Sie in aufregenden Momenten langsamer
-                  lesen. Lassen Sie Ihr Kind mitraten: "Was würdest du jetzt tun?" Verwenden Sie Requisiten
-                  wie ein Stofftier-Papagei oder ein Piratenhut. Nach der Geschichte können Sie gemeinsam
-                  eine Schatzkarte malen oder ein Piratenabenteuer nachspielen. So wird das Vorleseerlebnis
-                  noch intensiver und unvergesslicher.
+                  Machen Sie das Vorlesen zum Abenteuer! Verwenden Sie verschiedene Stimmen für Ritter,
+                  Drachen und Könige. Bauen Sie Spannung auf, indem Sie in aufregenden Momenten langsamer
+                  lesen. Lassen Sie Ihr Kind mitraten: "Was würde ein mutiger Ritter jetzt tun?" Verwenden
+                  Sie Requisiten wie ein Spielzeugschwert oder eine selbstgebastelte Ritterrüstung. Nach der
+                  Geschichte können Sie gemeinsam ein Ritterabenteuer nachspielen oder eine Burg malen. So
+                  wird das Vorleseerlebnis noch intensiver und unvergesslicher.
                 </p>
               </div>
 
               {/* Abschluss-Paragraph */}
               <div className="pt-4 border-t border-gray-200">
                 <p className="leading-relaxed font-medium">
-                  Piraten Abenteuergeschichten sind wertvolle Begleiter in der Kindheit. Sie unterhalten nicht
+                  Ritter Abenteuergeschichten sind wertvolle Begleiter in der Kindheit. Sie unterhalten nicht
                   nur, sondern fördern auch wichtige Fähigkeiten und Werte. Das gemeinsame Vorlesen stärkt die
                   Bindung zwischen Eltern und Kindern und schafft schöne Erinnerungen. Die spannenden Geschichten
-                  über mutige Seefahrer, geheimnisvolle Schätze und treue Freundschaften begleiten Kinder oft
+                  über tapfere Ritter, geheimnisvolle Drachen und heldenhafte Taten begleiten Kinder oft
                   ihr ganzes Leben lang und wecken vielleicht sogar eine lebenslange Liebe zum Lesen und zu
                   Abenteuern.
                 </p>
@@ -470,14 +470,14 @@ export default function PiratenAbenteuerPage() {
           {/* Tipps-Sektion */}
           <section className="mb-12 bg-orange-50 rounded-xl p-8 border-2 border-orange-100">
             <h2 className="text-2xl font-bold mb-4" style={{ color: '#f77f00' }}>
-              💡 Tipps zum Vorlesen von Piratengeschichten
+              💡 Tipps zum Vorlesen von Rittergeschichten
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>✓ <strong>Piratenstimme verwenden:</strong> Sprechen Sie mit rauer Piratenstimme – "Ahoi, Landratten!"</li>
-              <li>✓ <strong>Requisiten einsetzen:</strong> Ein Piratenhut oder Augenklappe machen das Vorlesen noch lebendiger</li>
-              <li>✓ <strong>Spannung aufbauen:</strong> Lesen Sie in spannenden Momenten langsamer und machen Sie Pausen</li>
-              <li>✓ <strong>Interaktiv gestalten:</strong> Lassen Sie Ihr Kind Papageien-Geräusche machen oder Piratenlieder singen</li>
-              <li>✓ <strong>Nachspielen:</strong> Nach der Geschichte können Sie gemeinsam auf Schatzsuche im Haus gehen</li>
+              <li>✓ <strong>Ritterstimme verwenden:</strong> Sprechen Sie mit tiefer, mutiger Stimme</li>
+              <li>✓ <strong>Requisiten einsetzen:</strong> Eine Spielzeugrüstung oder Schwert machen das Vorlesen lebendiger</li>
+              <li>✓ <strong>Spannung aufbauen:</strong> Lesen Sie in spannenden Momenten langsamer und machen Sie dramatische Pausen</li>
+              <li>✓ <strong>Interaktiv gestalten:</strong> Lassen Sie Ihr Kind Drachengeräusche machen oder Schwertkämpfe nachahmen</li>
+              <li>✓ <strong>Nachspielen:</strong> Nach der Geschichte können Sie gemeinsam Ritter spielen oder eine Burg bauen</li>
             </ul>
           </section>
 
@@ -491,22 +491,22 @@ export default function PiratenAbenteuerPage() {
               {/* Frage 1 */}
               <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
-                  Warum sind Piratengeschichten gut für Kinder?
+                  Warum sind Rittergeschichten gut für Kinder?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Piratengeschichten fördern Mut, Abenteuerlust und Problemlösungsfähigkeiten bei Kindern.
-                  Sie vermitteln wichtige Werte wie Teamwork, Freundschaft und Cleverness. Die spannenden
-                  Geschichten regen die Fantasie an und helfen Kindern, selbstbewusster zu werden.
+                  Rittergeschichten fördern Mut, Ehrgefühl und Selbstvertrauen bei Kindern.
+                  Sie vermitteln wichtige Werte wie Tapferkeit, Fairness und Hilfsbereitschaft. Die spannenden
+                  Geschichten regen die Fantasie an und helfen Kindern, über sich hinauszuwachsen.
                 </p>
               </div>
 
               {/* Frage 2 */}
               <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
-                  Ab welchem Alter sind Piratengeschichten geeignet?
+                  Ab welchem Alter sind Rittergeschichten geeignet?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Unsere Piraten Abenteuergeschichten sind für Kinder ab 4 Jahren konzipiert. Die Geschichten
+                  Unsere Ritter Abenteuergeschichten sind für Kinder ab 5 Jahren konzipiert. Die Geschichten
                   sind altersgerecht spannend gestaltet und können bis ins Grundschulalter (ca. 10 Jahre)
                   vorgelesen werden. Jüngere Kinder profitieren besonders vom gemeinsamen Vorlesen und der
                   aufregenden Atmosphäre.
@@ -516,10 +516,10 @@ export default function PiratenAbenteuerPage() {
               {/* Frage 3 */}
               <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
-                  Wie lange dauert das Vorlesen einer Piratengeschichte?
+                  Wie lange dauert das Vorlesen einer Rittergeschichte?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Die meisten unserer Piratengeschichten haben eine Vorlesedauer von etwa 7-10 Minuten. Diese
+                  Die meisten unserer Rittergeschichten haben eine Vorlesedauer von etwa 8-10 Minuten. Diese
                   Länge ist ideal für das Vorlesen am Nachmittag oder als Abendritual, da sie spannend genug
                   ist für ein Abenteuer, aber nicht zu lang für die Aufmerksamkeitsspanne von Kindern.
                 </p>
@@ -534,12 +534,12 @@ export default function PiratenAbenteuerPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <a
-                href="/home/lesewelt/abenteuergeschichten/ritter-abenteuer/"
+                href="/home/lesewelt/abenteuergeschichten/piraten-abenteuer/"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-5xl mb-3">🏰🛡️</div>
-                <h3 className="text-xl font-bold mb-2" style={{ color: '#f77f00' }}>Ritter-Abenteuer</h3>
-                <p className="text-gray-600">Spannende Geschichten über tapfere Ritter und mutige Heldentaten</p>
+                <div className="text-5xl mb-3">🏴‍☠️⚓</div>
+                <h3 className="text-xl font-bold mb-2" style={{ color: '#f77f00' }}>Piraten-Abenteuer</h3>
+                <p className="text-gray-600">Spannende Geschichten über mutige Seefahrer und geheimnisvolle Schätze</p>
               </a>
 
               <a
