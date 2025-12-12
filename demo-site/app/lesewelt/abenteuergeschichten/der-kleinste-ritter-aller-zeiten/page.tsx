@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Der kleinste Ritter aller Zeiten - Abenteuergeschichte für Kinder | Fluxie',
-  description: 'Eine zauberhafte Abenteuergeschichte über Ritter Kunibert, den kleinsten Ritter des Königreichs, der beweist, dass wahre Größe von innen kommt. Perfekt zum Vorlesen für Kinder ab 5 Jahren.',
-  keywords: 'Rittergeschichte, Abenteuergeschichte Kinder, Vorlesegeschichte Ritter, Mutgeschichte, Selbstbewusstsein Kinder, Geschichte über Größe, Fluxie Lesekarten',
+  description: 'Eine zauberhafte Abenteuergeschichte über Rittermaus Kunibert, die kleinste Rittermaus des Königreichs, die beweist, dass wahre Größe von innen kommt. Perfekt zum Vorlesen für Kinder ab 5 Jahren.',
+  keywords: 'Rittergeschichte, Mausgeschichte, Abenteuergeschichte Kinder, Vorlesegeschichte Ritter, Mutgeschichte, Selbstbewusstsein Kinder, Geschichte über Größe, Fluxie Lesekarten',
   authors: [{ name: 'Fluxie Team' }],
   openGraph: {
     title: 'Der kleinste Ritter aller Zeiten - Abenteuergeschichte | Fluxie',
-    description: 'Ritter Kunibert ist der kleinste Ritter im ganzen Königreich. Doch als das Schloss in Gefahr gerät, beweist er, dass wahre Größe von innen kommt.',
+    description: 'Rittermaus Kunibert ist die kleinste Rittermaus im ganzen Königreich. Doch als das Schloss in Gefahr gerät, beweist sie mit Cleverness und Käse-Kenntnis, dass wahre Größe von innen kommt.',
     type: 'article',
     url: 'https://wunschturm.de/home/lesewelt/abenteuergeschichten/der-kleinste-ritter-aller-zeiten/',
     images: [
@@ -40,7 +40,7 @@ export default function DerKleinsteRitterPage() {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: 'Der kleinste Ritter aller Zeiten',
-            description: 'Eine Abenteuergeschichte über Ritter Kunibert, der beweist, dass wahre Größe von innen kommt.',
+            description: 'Eine Abenteuergeschichte über Rittermaus Kunibert, die beweist, dass wahre Größe von innen kommt.',
             author: {
               '@type': 'Organization',
               name: 'Fluxie',
@@ -222,7 +222,7 @@ export default function DerKleinsteRitterPage() {
           {/* Story Header */}
           <header className="mb-8">
             <h1 className="text-4xl font-bold mb-4 text-fluxie-orange">
-              🏰 Der kleinste Ritter aller Zeiten
+              🐭🛡️ Der kleinste Ritter aller Zeiten
             </h1>
             <div className="flex flex-wrap gap-4 text-gray-600">
               <span className="flex items-center gap-2">
@@ -243,20 +243,20 @@ export default function DerKleinsteRitterPage() {
           {/* Teaser Box */}
           <div className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 mb-8 border-l-4 border-fluxie-orange">
             <p className="text-lg text-gray-800 italic">
-              Ritter Kunibert ist der kleinste Ritter im ganzen Königreich. Seine Rüstung muss
-              extra angefertigt werden, und sein Pferd ist eher ein großes Pony. Alle anderen
-              Ritter lachen über ihn – bis eines Tages ein gefährlicher Drache auftaucht und
-              ausgerechnet der kleinste Ritter zur größten Hoffnung wird...
+              Rittermaus Kunibert ist die kleinste Rittermaus im ganzen Königreich. Mit seiner
+              blauen Ritterrüstung, dem roten Umhang und seinem Käseschatz wohnt sie auf Burg
+              Hochenstein. Alle großen Ritter lachen über die winzige Maus – bis eines Tages ein
+              bunter Drache auftaucht und ausgerechnet die kleinste Rittermaus zur größten Hoffnung wird...
             </p>
           </div>
 
           {/* Story Illustration */}
           <div className="mb-8 text-center">
             <div className="inline-block bg-gradient-to-br from-orange-200 to-amber-200 rounded-2xl p-8">
-              <div className="text-9xl">🛡️</div>
+              <div className="text-9xl">🐭🛡️</div>
             </div>
             <p className="text-sm text-gray-500 mt-2 italic">
-              Ritter Kunibert - klein, aber oho!
+              Rittermaus Kunibert - klein, aber oho!
             </p>
           </div>
 
@@ -267,93 +267,106 @@ export default function DerKleinsteRitterPage() {
                 Die Geschichte beginnt...
               </h2>
               <p className="mb-4">
-                Auf der Burg Hochenstein lebte einst der kleinste Ritter des ganzen
-                Königreichs. Sein Name war Kunibert, und er war gerade mal so groß wie ein
-                Besenstiel. Seine Rüstung musste der Schmied aus Puppenrüstungsteilen
-                zusammenbauen, und sein treues Ross hieß Flöckchen – ein Pony, das eher wie
-                ein großer Hund aussah.
+                Auf der Burg Hochenstein lebte einst die kleinste Rittermaus des ganzen
+                Königreichs. Ihr Name war Kunibert, und sie hatte wunderschönes blaues Fell,
+                das unter ihrer winzigen Ritterrüstung hervorlugte. Ihr roter Umhang wehte
+                stolz im Wind, wenn sie über die Burgmauern spazierte. Der Schmied hatte ihre
+                Rüstung aus glänzendem Silber extra für sie angefertigt – kaum größer als
+                eine Nussschale!
               </p>
               <p className="mb-4">
-                Die anderen Ritter der Burg lachten oft über Kunibert. „Schau dir den
-                Knirps an!", riefen sie. „Der ist ja kleiner als mein Schwert!" Doch
-                Kunibert ließ sich davon nicht unterkriegen. Er übte jeden Tag fleißig mit
-                seinem kleinen Schwert und las alle Bücher über Drachenkämpfe und
-                Heldentaten, die er in der Burgbibliothek finden konnte.
+                Die anderen großen Ritter der Burg lachten oft über die kleine Maus. „Schau
+                dir die winzige Rittermaus an!", riefen sie. „Die ist ja kleiner als mein
+                Schwertknauf!" Doch Kunibert ließ sich davon nicht unterkriegen. Sie übte jeden
+                Tag fleißig mit ihrem mausegroßen Schwert und las alle Bücher über
+                Drachenkämpfe und Heldentaten in der Burgbibliothek. Und abends naschte sie
+                von ihrem geheimen Käsevorrat – dem besten Käse des ganzen Landes!
               </p>
             </div>
 
             <div className="bg-white rounded-xl shadow-sm p-8 mb-6">
               <h2 className="text-2xl font-bold text-fluxie-orange mb-4">
-                Der Drache kommt!
+                Der bunte Drache kommt!
               </h2>
               <p className="mb-4">
                 Eines Morgens wurde die Burg von einem lauten Gebrüll geweckt. Am Horizont
-                erschien eine riesige Gestalt mit gewaltigen Flügeln – ein Drache! Und nicht
-                irgendein Drache, sondern Glutzahn, der gefürchtetste Drache der sieben
-                Königreiche.
+                erschien eine riesige Gestalt mit gewaltigen, schillernden Flügeln – ein Drache!
+                Und was für einer: Seine Schuppen leuchteten in allen Farben des Regenbogens –
+                lila, türkis, grün und pink! Es war Regenbogenflügel, der hungrigste Drache
+                der sieben Königreiche.
               </p>
               <p className="mb-4">
-                „Ich will den königlichen Schatz!", donnerte Glutzahn und spuckte Feuer in
-                die Luft. „Sonst verwandle ich eure Burg in einen Haufen Asche!"
+                „Ich habe einen riesigen Hunger!", brüllte Regenbogenflügel und schnaubte
+                kleine Rauchwölkchen. „Man sagt, in dieser Burg gibt es den besten Käse weit
+                und breit! Bringt mir euren Käse, oder ich... ich... werde sehr ungemütlich!"
               </p>
               <p className="mb-4">
-                Alle großen, starken Ritter zitterten vor Angst. Ritter Rüdiger versteckte
+                Alle großen, starken Ritter gerieten in Panik. Ritter Rüdiger versteckte
                 sich unter seinem Bett. Ritter Ruprecht tat so, als hätte er plötzlich
                 Bauchschmerzen. Und Ritter Roland... nun, Roland war so schnell weggerannt,
-                dass man nur noch eine Staubwolke sah.
+                dass man nur noch eine Staubwolke sah. Keiner wollte dem hungrigen Drachen
+                begegnen!
               </p>
             </div>
 
             <div className="bg-white rounded-xl shadow-sm p-8 mb-6">
               <h2 className="text-2xl font-bold text-fluxie-orange mb-4">
-                Kuniberts großer Plan
+                Kuniberts käsiger Plan
               </h2>
               <p className="mb-4">
-                Kunibert hingegen hatte eine Idee. In all den Büchern, die er gelesen hatte,
-                stand: „Drachen sind groß und stark, aber nicht besonders schlau. Sie können
-                nicht durch enge Spalten oder kleine Türen."
+                Rittermaus Kunibert hingegen hatte eine clevere Idee! Sie kannte sich mit
+                Käse aus wie keine andere – schließlich war sie eine Maus! Und sie wusste genau,
+                dass Drachen Käse zwar liebten, aber nicht wussten, wie man ihn richtig genießt.
               </p>
               <p className="mb-4">
-                Der kleine Ritter kletterte auf sein Pony Flöckchen und ritt zum Drachen
-                hinaus. „Hey, Glutzahn!", rief er mit piepsiger Stimme. „Ich bin der
-                stärkste Ritter dieser Burg! Wenn du mich besiegen willst, musst du mir in
-                die Burg folgen!"
+                Die kleine Rittermaus schnappte sich ein großes Stück ihres besten goldgelben
+                Käses und kletterte auf die Burgzinne. „Hey, Regenbogenflügel!", quiekte sie
+                mit ihrer piepsigen Mausstimme. „Ich habe den leckersten Käse des Königreichs!
+                Aber nur wer schlau genug ist, kann ihn bekommen. Folge mir, wenn du dich traust!"
               </p>
               <p className="mb-4">
-                Der Drache lachte so laut, dass die Fensterscheiben klirrten. „DU? So ein
-                Zwerg will mich herausfordern? Das wird der kürzeste Kampf aller Zeiten!"
+                Der Drache schnupperte mit seiner großen Nase. Mmmmh! Der Käse duftete herrlich!
+                „Eine winzige Maus will mir zeigen, wo der Käse ist?", lachte er. „Na gut,
+                kleine Rittermaus, zeig mir den Weg!"
               </p>
               <p className="mb-4">
-                Kunibert galoppierte zurück zur Burg, und der Drache folgte ihm – genau wie
-                geplant. Der kleine Ritter führte Glutzahn durch das große Burgtor, dann
-                durch die Halle, dann durch einen Korridor, und schließlich zu einer ganz
-                besonderen Tür: der Geheimtür zur Schatzkammer.
+                Kunibert huschte flink zurück in die Burg, den Käse fest im Arm. Der riesige
+                Drache folgte dem verlockenden Duft – genau wie geplant! Die kleine Maus führte
+                Regenbogenflügel durch das große Burgtor, dann durch die Halle, dann durch einen
+                engen Korridor, und schließlich zu einer ganz besonderen Tür: der winzigen Tür
+                zur Käsekammer!
               </p>
             </div>
 
             <div className="bg-white rounded-xl shadow-sm p-8 mb-6">
               <h2 className="text-2xl font-bold text-fluxie-orange mb-4">
-                Die Wendung
+                Die clevere Lösung
               </h2>
               <p className="mb-4">
-                Diese Tür war winzig – gerade groß genug für Kunibert, aber viel zu klein
-                für einen Drachen. Glutzahn versuchte mit aller Kraft, sich hindurchzuquetschen.
-                Er drückte und schubste, aber er steckte fest – mit dem Kopf in der
-                Schatzkammer und dem riesigen Körper im Gang!
+                Die Tür zur Käsekammer war winzig – gerade groß genug für eine Maus, aber
+                viel zu klein für einen Drachen! Regenbogenflügel versuchte verzweifelt, seinen
+                großen Kopf durch die Tür zu stecken, aber es ging einfach nicht. Er schnaubte
+                frustriert kleine Rauchwölkchen.
               </p>
               <p className="mb-4">
-                „Hilfe!", brüllte der Drache. „Ich stecke fest! Ich kann mich nicht
-                bewegen!"
+                „Das ist unfair!", jammerte der Drache mit Tränen in den Augen. „Ich kann
+                doch nichts dafür, dass ich so groß bin! Ich wollte doch nur ein bisschen
+                Käse probieren..."
               </p>
               <p className="mb-4">
-                Kunibert marschierte mutig vor den festsitzenden Drachenkopf. „Nun, Glutzahn",
-                sagte er mit fester Stimme, „du hast zwei Möglichkeiten: Entweder du
-                versprichst, diese Burg nie wieder anzugreifen, oder ich hole die Burgwache,
-                und wir bauen die Tür um dich herum zu. Dann sitzt du hier für immer fest!"
+                Da hatte Rittermaus Kunibert eine wunderbare Idee. Sie huschte durch die kleine
+                Tür in die Käsekammer und kam mit einem riesigen, goldgelben Käselaib wieder
+                heraus – fast so groß wie sie selbst! Mit vereinten Kräften (und ein bisschen
+                Magie-Muskelkraft) rollte sie den Käse zu Regenbogenflügel.
               </p>
               <p className="mb-4">
-                Der Drache überlegte nicht lange. „Ich verspreche es! Ich verspreche es!
-                Lasst mich nur hier raus!"
+                „Weißt du", piepste Kunibert freundlich, „man muss nicht durch jede Tür passen,
+                um glücklich zu sein. Manchmal ist es viel besser, wenn jemand Kleines einem
+                Großen hilft! So, hier ist dein Käse – der beste im ganzen Königreich!"
+              </p>
+              <p className="mb-4">
+                Der Drache strahlte über sein ganzes buntes Gesicht. „Du... du gibst mir
+                wirklich den Käse? Obwohl ich so laut gebrüllt habe?"
               </p>
             </div>
 
@@ -362,23 +375,33 @@ export default function DerKleinsteRitterPage() {
                 Das glückliche Ende
               </h2>
               <p className="mb-4">
-                Mit vereinten Kräften zogen alle Burgbewohner den Drachen wieder aus der Tür
-                heraus. Glutzahn schüttelte sich, schaute beschämt zu Boden und flog davon –
-                und er hat die Burg Hochenstein nie wieder belästigt.
+                „Natürlich!", antwortete Kunibert mit einem Lächeln. „Teilen macht nämlich
+                doppelt so viel Spaß!" Regenbogenflügel knabberte glücklich an dem köstlichen
+                Käse und seine bunten Schuppen glitzerten vor Freude im Sonnenlicht.
               </p>
               <p className="mb-4">
-                Von diesem Tag an lachte niemand mehr über den kleinen Ritter Kunibert. Der
-                König ernannte ihn zum „Ritter der Cleverness" und gab ihm eine besondere
-                Auszeichnung: einen goldenen Schild mit der Aufschrift „Wahre Größe kommt von
-                innen".
+                Von diesem Tag an wurde Regenbogenflügel der beste Freund der Burg. Er kam
+                jeden Monat vorbei, um mit Kunibert Käse zu essen und Geschichten auszutauschen.
+                Und niemand lachte mehr über die kleine Rittermaus – im Gegenteil!
               </p>
               <p className="mb-4">
-                Und wenn die anderen Ritter jetzt Geschichten von ihren Heldentaten erzählten,
-                hörten alle am liebsten Kuniberts Geschichte zu – die Geschichte vom kleinsten
-                Ritter aller Zeiten, der mit Köpfchen statt Muskeln einen Drachen besiegte.
+                Der König ernannte Kunibert zur „Rittermaus der Freundschaft und Cleverness"
+                und gab ihr eine besondere Auszeichnung: einen winzigen goldenen Käse-Orden
+                mit der Aufschrift „Wahre Größe kommt von innen – und teilen macht stark!"
+              </p>
+              <p className="mb-4">
+                Wenn die anderen Ritter jetzt von ihren Heldentaten erzählten, hörten alle
+                am liebsten Kuniberts Geschichte zu – die Geschichte von der kleinsten Rittermaus
+                aller Zeiten, die mit Freundlichkeit, Käse und Köpfchen einen riesigen Drachen
+                zum Freund gewann.
+              </p>
+              <p className="mb-4">
+                Und wenn du ganz genau hinschaust, kannst du Rittermaus Kunibert noch heute
+                auf Burg Hochenstein sehen: mit ihrem blauen Fell, der glänzenden Rüstung und
+                dem wehenden roten Umhang – immer bereit für ein neues Abenteuer!
               </p>
               <p className="text-center italic text-lg mt-6 text-fluxie-orange">
-                🏰 Ende 🏰
+                🐭🏰🧀 Ende 🧀🏰🐭
               </p>
             </div>
           </article>
@@ -411,30 +434,31 @@ export default function DerKleinsteRitterPage() {
           {/* Outro: Warum diese Geschichte funktioniert */}
           <div className="bg-gray-50 rounded-xl p-8 mb-12">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
-              💡 Warum Abenteuergeschichten mit cleveren Helden so wertvoll sind
+              💡 Warum Geschichten über Freundschaft und Teilen so wertvoll sind
             </h2>
             <div className="space-y-4 text-gray-700">
               <p>
                 <strong className="text-fluxie-orange">Stärkt das Selbstbewusstsein:</strong>{' '}
-                Kinder, die sich manchmal klein oder unsicher fühlen, finden in Kunibert
-                eine wunderbare Identifikationsfigur. Die Geschichte zeigt: Jeder hat
-                besondere Stärken!
+                Kinder, die sich manchmal klein oder unsicher fühlen, finden in Rittermaus Kunibert
+                eine wunderbare Identifikationsfigur. Die Geschichte zeigt: Jeder hat besondere
+                Stärken – egal wie groß oder klein man ist!
               </p>
               <p>
-                <strong className="text-fluxie-orange">Fördert kreatives Denken:</strong>{' '}
-                Kunibert löst das Problem nicht mit Kraft, sondern mit Cleverness. Das
-                inspiriert Kinder, selbst kreativ nach Lösungen zu suchen.
+                <strong className="text-fluxie-orange">Lehrt Freundlichkeit statt Gewalt:</strong>{' '}
+                Kunibert löst das Problem nicht durch Kampf, sondern durch Teilen und Freundlichkeit.
+                Das zeigt Kindern, dass Empathie und Großzügigkeit oft bessere Lösungen sind als Konfrontation.
               </p>
               <p>
                 <strong className="text-fluxie-orange">Vermittelt wichtige Werte:</strong>{' '}
-                Die Geschichte lehrt, dass äußere Merkmale (Größe, Aussehen) nicht über den
-                Wert eines Menschen entscheiden – eine wichtige Lektion gegen Mobbing.
+                Die Geschichte lehrt, dass Teilen Freude bringt und dass man durch Freundlichkeit
+                sogar aus vermeintlichen Feinden Freunde machen kann. Eine wichtige Lektion gegen
+                Vorurteile und für Toleranz.
               </p>
               <p>
-                <strong className="text-fluxie-orange">Perfekte Mischung aus Spannung und Humor:</strong>{' '}
-                Die Drachen-Bedrohung sorgt für echte Abenteuer-Spannung, während Kuniberts
-                cleverer Plan und die Situation des festsitzenden Drachen für humorvolle
-                Momente sorgen.
+                <strong className="text-fluxie-orange">Perfekte Mischung aus Spannung und Herz:</strong>{' '}
+                Der bunte Drache Regenbogenflügel sorgt zunächst für Spannung, die liebevolle
+                Lösung mit dem Käse für herzerwärmende Momente. Kinder lernen, dass oft Verständnis
+                hinter scheinbarer Bedrohung steckt.
               </p>
             </div>
           </div>
@@ -472,10 +496,10 @@ export default function DerKleinsteRitterPage() {
                   Welche Werte vermittelt die Geschichte vom kleinsten Ritter?
                 </h3>
                 <p className="text-gray-700">
-                  Die Geschichte zeigt, dass körperliche Größe nicht über den Wert eines
-                  Menschen entscheidet. Sie vermittelt Mut, Kreativität,
-                  Problemlösungskompetenz und Selbstvertrauen – und dass jeder besondere
-                  Talente hat.
+                  Die Geschichte zeigt, dass körperliche Größe nicht über den Wert entscheidet.
+                  Sie vermittelt Freundlichkeit, Teilen, Empathie und Mut – und dass man durch
+                  Freundschaft mehr erreicht als durch Konfrontation. Rittermaus Kunibert zeigt,
+                  dass jeder besondere Talente hat!
                 </p>
               </div>
 
@@ -484,9 +508,10 @@ export default function DerKleinsteRitterPage() {
                   Ist die Geschichte spannend genug für abenteuerlustige Kinder?
                 </h3>
                 <p className="text-gray-700">
-                  Ja! Die Geschichte bietet echte Abenteuer-Spannung mit einem bedrohlichen
-                  Drachen und einem cleveren Helden. Sie ist aufregend genug, um Kinder zu
-                  fesseln, aber nicht zu gruselig für sensible Gemüter.
+                  Ja! Die Geschichte bietet echte Abenteuer-Spannung mit dem bunten Drachen
+                  Regenbogenflügel und der cleveren Rittermaus. Sie ist aufregend genug, um
+                  Kinder zu fesseln, aber endet friedlich und herzerwärmend – perfekt auch für
+                  sensible Gemüter.
                 </p>
               </div>
 
@@ -495,9 +520,10 @@ export default function DerKleinsteRitterPage() {
                   Hilft die Geschichte Kindern, die sich zu klein oder schwach fühlen?
                 </h3>
                 <p className="text-gray-700">
-                  Definitiv! Ritter Kunibert ist eine wunderbare Identifikationsfigur für
+                  Definitiv! Rittermaus Kunibert ist eine wunderbare Identifikationsfigur für
                   Kinder, die sich manchmal klein oder unsicher fühlen. Die Geschichte zeigt,
-                  dass jeder auf seine Weise stark sein kann.
+                  dass man nicht groß und stark sein muss, um ein Held zu sein – Freundlichkeit
+                  und Cleverness sind viel wichtiger!
                 </p>
               </div>
 
