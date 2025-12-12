@@ -116,8 +116,8 @@ export default function AbenteuergeschichtenPage() {
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           {/* Breadcrumb */}
-          <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
-            <ol className="flex items-center space-x-2">
+          <nav className="mb-8 text-xs sm:text-sm text-gray-600" aria-label="Breadcrumb">
+            <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <li>
                 <a href="/home/" className="hover:opacity-80 transition text-fluxie-orange">Home</a>
               </li>
@@ -227,7 +227,7 @@ export default function AbenteuergeschichtenPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                    src="https://images.unsplash.com/photo-1571056233572-d9db3701408c?w=160&h=160&fit=crop&auto=format"
                     alt="Ritter-Abenteuer"
                     className="w-20 h-20 rounded-lg object-cover mb-3"
                   />
@@ -292,7 +292,7 @@ export default function AbenteuergeschichtenPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <img
-                    src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                    src="https://images.unsplash.com/photo-1571056233572-d9db3701408c?w=160&h=160&fit=crop&auto=format"
                     alt="Der kleinste Ritter"
                     className="w-20 h-20 rounded-lg object-cover mb-4 mx-auto"
                   />

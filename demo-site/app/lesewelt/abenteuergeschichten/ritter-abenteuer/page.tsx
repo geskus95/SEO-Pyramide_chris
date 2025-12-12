@@ -164,8 +164,8 @@ export default function RitterAbenteuerPage() {
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           {/* Breadcrumb */}
-          <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
-            <ol className="flex items-center space-x-2">
+          <nav className="mb-8 text-xs sm:text-sm text-gray-600" aria-label="Breadcrumb">
+            <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <li>
                 <a href="/home/" className="hover:opacity-80 transition text-fluxie-orange">Home</a>
               </li>
@@ -229,7 +229,7 @@ export default function RitterAbenteuerPage() {
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <div className="flex flex-col h-full">
                     <img
-                      src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                      src="https://images.unsplash.com/photo-1571056233572-d9db3701408c?w=160&h=160&fit=crop&auto=format"
                       alt="Der kleinste Ritter aller Zeiten"
                       className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto"
                     />
@@ -257,7 +257,7 @@ export default function RitterAbenteuerPage() {
                 <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
                   <div className="flex flex-col h-full">
                     <img
-                      src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                      src="https://images.unsplash.com/photo-1571056233572-d9db3701408c?w=160&h=160&fit=crop&auto=format"
                       alt="Der Drache vom Silberberg"
                       className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto opacity-50"
                     />
@@ -284,7 +284,7 @@ export default function RitterAbenteuerPage() {
                 <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
                   <div className="flex flex-col h-full">
                     <img
-                      src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                      src="https://images.unsplash.com/photo-1571056233572-d9db3701408c?w=160&h=160&fit=crop&auto=format"
                       alt="Das verzauberte Schloss"
                       className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto opacity-50"
                     />

@@ -164,8 +164,8 @@ export default function GutenachtgeschichtenMitHundenPage() {
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           {/* Breadcrumb */}
-          <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
-            <ol className="flex items-center space-x-2">
+          <nav className="mb-8 text-xs sm:text-sm text-gray-600" aria-label="Breadcrumb">
+            <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <li>
                 <a href="/home/" className="hover:opacity-80 transition text-fluxie-orange">Home</a>
               </li>
