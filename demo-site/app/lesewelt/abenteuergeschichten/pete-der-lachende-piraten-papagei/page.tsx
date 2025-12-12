@@ -539,25 +539,31 @@ export default function PeteDerLachendePiratenPapageiPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <a
-                href="/home/lesewelt/abenteuergeschichten"
+                href="/home/lesewelt/abenteuergeschichten/der-kleinste-ritter-aller-zeiten/"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-5xl mb-3">⚔️✨</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Mehr Abenteuergeschichten</h3>
-                <p className="text-sm text-gray-600">Entdecke alle spannenden Abenteuergeschichten</p>
+                <div className="text-5xl mb-3">🛡️🏰</div>
+                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Der kleinste Ritter aller Zeiten</h3>
+                <p className="text-sm text-gray-600">Eine zauberhafte Geschichte über Mut und wahre Größe</p>
               </a>
 
-              <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 border-2 border-dashed border-gray-300">
-                <div className="text-5xl mb-3 opacity-50">🏴‍☠️⚓</div>
-                <h3 className="font-bold text-gray-500 mb-2">Käpt'n Blaubart</h3>
-                <p className="text-sm text-gray-400 italic">Bald verfügbar</p>
-              </div>
+              <a
+                href="/home/lesewelt/abenteuergeschichten/piraten-abenteuer/"
+                className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
+              >
+                <div className="text-5xl mb-3">🏴‍☠️⚓</div>
+                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Piraten-Abenteuer</h3>
+                <p className="text-sm text-gray-600">Alle spannenden Piratengeschichten entdecken</p>
+              </a>
 
-              <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 border-2 border-dashed border-gray-300">
-                <div className="text-5xl mb-3 opacity-50">🗺️💎</div>
-                <h3 className="font-bold text-gray-500 mb-2">Die geheimnisvolle Karte</h3>
-                <p className="text-sm text-gray-400 italic">Bald verfügbar</p>
-              </div>
+              <a
+                href="/home/lesewelt/abenteuergeschichten/"
+                className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 hover:shadow-lg transition-shadow border-2 border-fluxie-orange"
+              >
+                <div className="text-5xl mb-3">⚔️✨</div>
+                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Alle Abenteuergeschichten</h3>
+                <p className="text-sm text-gray-600">Entdecke noch mehr spannende Abenteuer</p>
+              </a>
             </div>
           </div>
         </article>
