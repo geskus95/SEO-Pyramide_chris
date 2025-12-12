@@ -220,15 +220,15 @@ export default function DerKleinsteRitterPage() {
 
           {/* Artikel-Header */}
           <header className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange">
-              Der kleinste Ritter aller Zeiten 🐭🛡️
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange break-words">
+              Der kleinste Ritter aller Zeiten 
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
-              <span>📖 Lesezeit: 8-10 Minuten</span>
+              <span>Lesezeit: 8-10 Minuten</span>
               <span>•</span>
-              <span>👶 Ab 5 Jahren</span>
+              <span>Ab 5 Jahren</span>
               <span>•</span>
-              <span>🏰 Ritter-Abenteuer</span>
+              <span>Ritter-Abenteuer</span>
             </div>
           </header>
 
@@ -253,9 +253,6 @@ export default function DerKleinsteRitterPage() {
 
           {/* Story-Text */}
           <div className="prose prose-lg max-w-none mb-12">
-            <h2 className="text-2xl font-bold mb-4 text-fluxie-orange">
-              Die Geschichte beginnt...
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Auf der Burg Hochenstein lebte einst die kleinste Rittermaus des ganzen Königreichs.
               Ihr Name war Kunibert, und sie hatte wunderschönes blaues Fell, das unter ihrer
@@ -272,9 +269,6 @@ export default function DerKleinsteRitterPage() {
               Käse des ganzen Landes!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
-              Der bunte Drache kommt!
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Eines Morgens wurde die Burg von einem lauten Gebrüll geweckt. Am Horizont erschien
               eine riesige Gestalt mit gewaltigen, schillernden Flügeln – ein Drache! Und was für
@@ -293,9 +287,6 @@ export default function DerKleinsteRitterPage() {
               Keiner wollte dem hungrigen Drachen begegnen!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
-              Kuniberts käsiger Plan
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Rittermaus Kunibert hingegen hatte eine clevere Idee! Sie kannte sich mit Käse aus wie
               keine andere – schließlich war sie eine Maus! Und sie wusste genau, dass Drachen Käse
@@ -320,9 +311,6 @@ export default function DerKleinsteRitterPage() {
               Korridor, und schließlich zu einer ganz besonderen Tür: der winzigen Tür zur Käsekammer!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
-              Die clevere Lösung
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Die Tür zur Käsekammer war winzig – gerade groß genug für eine Maus, aber viel zu
               klein für einen Drachen! Regenbogenflügel versuchte verzweifelt, seinen großen Kopf
@@ -346,9 +334,6 @@ export default function DerKleinsteRitterPage() {
               Kleines einem Großen hilft! So, hier ist dein Käse – der beste im ganzen Königreich!"</strong>
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
-              Das glückliche Ende
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               <strong>„Natürlich!"</strong>, antwortete Kunibert mit einem Lächeln.
               <strong>„Teilen macht nämlich doppelt so viel Spaß!"</strong> Regenbogenflügel
@@ -570,7 +555,11 @@ export default function DerKleinsteRitterPage() {
                 href="/home/lesewelt/abenteuergeschichten/ritter-abenteuer/"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-5xl mb-3">🏰🛡️</div>
+                <img
+                  src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                  alt="Alle Ritter Abenteuer"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="font-bold mb-2 text-fluxie-orange">Alle Ritter-Abenteuer</h3>
                 <p className="text-sm text-gray-600">Entdecke noch mehr spannende Rittergeschichten</p>
               </a>
@@ -579,7 +568,11 @@ export default function DerKleinsteRitterPage() {
                 href="/home/lesewelt/abenteuergeschichten/pete-der-lachende-piraten-papagei/"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-5xl mb-3">🦜🏴‍☠️</div>
+                <img
+                  src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=160&h=160&fit=crop&auto=format"
+                  alt="Pete der lachende Piraten Papagei"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="font-bold mb-2 text-fluxie-orange">Pete der lachende Piraten-Papagei</h3>
                 <p className="text-sm text-gray-600">Ein lustiges Piraten-Abenteuer mit einem Papagei, der nicht aufhören kann zu lachen!</p>
               </a>
@@ -588,7 +581,11 @@ export default function DerKleinsteRitterPage() {
                 href="/home/lesewelt/abenteuergeschichten/"
                 className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 hover:shadow-lg transition-shadow border-2 border-fluxie-orange"
               >
-                <div className="text-5xl mb-3">⚔️✨</div>
+                <img
+                  src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=160&h=160&fit=crop&auto=format"
+                  alt="Alle Abenteuergeschichten"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="font-bold mb-2 text-fluxie-orange">Alle Abenteuergeschichten</h3>
                 <p className="text-sm text-gray-600">Entdecke noch mehr spannende Abenteuer</p>
               </a>

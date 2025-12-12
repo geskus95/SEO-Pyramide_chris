@@ -16,42 +16,38 @@ export default function RootLayout({
       <body className="bg-fluxie-cream">
         {/* Header mit Fluxie Branding */}
         <nav className="bg-fluxie-blue text-white shadow-lg">
-          <div className="container mx-auto px-4 py-4">
-            <div className="flex items-center justify-between">
+          <div className="container mx-auto px-4 py-3 sm:py-4">
+            <div className="flex items-center justify-between gap-4">
               {/* Fluxie Logo */}
-              <a href="/home/" className="flex items-center hover:opacity-80 transition">
+              <a href="/home/" className="flex items-center hover:opacity-80 transition flex-shrink-0">
                 <img
                   src="https://fluxie.de/wp-content/uploads/2025/08/fluxietopleft.png"
                   alt="Fluxie Logo"
-                  className="h-12"
-                  style={{ height: '48px', width: 'auto' }}
+                  className="h-10 sm:h-12 w-auto object-contain"
                 />
               </a>
 
               {/* Navigation Links */}
-              <div className="flex gap-6">
+              <div className="flex gap-3 sm:gap-6 text-sm sm:text-base">
                 <a
                   href="/home/lesewelt/"
-                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
+                  className="hover:opacity-80 transition font-medium text-white"
                 >
-                  <span>📚</span>
-                  <span>Lesewelt</span>
+                  Lesewelt
                 </a>
                 <a
                   href="/home/blog/"
-                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
+                  className="hover:opacity-80 transition font-medium text-white"
                 >
-                  <span>✍️</span>
-                  <span>Blog</span>
+                  Blog
                 </a>
                 <a
                   href="https://fluxie.de/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
+                  className="hover:opacity-80 transition font-medium text-white"
                 >
-                  <span>🛒</span>
-                  <span>Shop</span>
+                  Shop
                 </a>
               </div>
             </div>

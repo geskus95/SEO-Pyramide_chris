@@ -10,8 +10,8 @@ export default function LeseweltPage() {
         </nav>
 
         {/* Hero */}
-        <h1 className="text-4xl font-bold mb-4 text-fluxie-orange">
-          📚 Lesewelt – Entdecke unsere Geschichten
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange break-words">
+          Lesewelt – Entdecke unsere Geschichten
         </h1>
         <p className="text-lg text-gray-600 mb-12">
           Tauche ein in die wunderbare Welt der Geschichten! Hier findest du spannende Abenteuer,
@@ -23,7 +23,11 @@ export default function LeseweltPage() {
         <div className="grid md:grid-cols-2 gap-6">
           <a href="/home/lesewelt/gutenachtgeschichten/" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
-              <div className="text-5xl mb-3">🌙</div>
+              <img
+                src="https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=160&h=160&fit=crop&auto=format"
+                alt="Gutenachtgeschichten"
+                className="w-20 h-20 rounded-lg object-cover mb-3"
+              />
               <h3 className="text-xl font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                 Gutenachtgeschichten
               </h3>
@@ -35,7 +39,11 @@ export default function LeseweltPage() {
 
           <a href="/home/lesewelt/abenteuergeschichten/" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
-              <div className="text-5xl mb-3">⚔️</div>
+              <img
+                src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=160&h=160&fit=crop&auto=format"
+                alt="Abenteuergeschichten"
+                className="w-20 h-20 rounded-lg object-cover mb-3"
+              />
               <h3 className="text-xl font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                 Abenteuergeschichten
               </h3>

@@ -138,8 +138,8 @@ export default function AbenteuergeschichtenPage() {
 
           {/* Kategorie-Header */}
           <header className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange">
-              ⚔️ Abenteuergeschichten für Kinder: Spannende Vorlesegeschichten
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange break-words">
+              Abenteuergeschichten für Kinder: Spannende Vorlesegeschichten
             </h1>
 
             <div className="prose prose-lg max-w-none text-gray-700">
@@ -207,7 +207,11 @@ export default function AbenteuergeschichtenPage() {
                 className="group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
-                  <div className="text-5xl mb-3">🏴‍☠️</div>
+                  <img
+                    src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=160&h=160&fit=crop&auto=format"
+                    alt="Piraten-Abenteuer"
+                    className="w-20 h-20 rounded-lg object-cover mb-3"
+                  />
                   <h3 className="text-xl font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Piraten-Abenteuer
                   </h3>
@@ -222,7 +226,11 @@ export default function AbenteuergeschichtenPage() {
                 className="group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
-                  <div className="text-5xl mb-3">🏰</div>
+                  <img
+                    src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                    alt="Ritter-Abenteuer"
+                    className="w-20 h-20 rounded-lg object-cover mb-3"
+                  />
                   <h3 className="text-xl font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Ritter-Abenteuer
                   </h3>
@@ -259,7 +267,11 @@ export default function AbenteuergeschichtenPage() {
                 className="group block"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
-                  <div className="text-5xl mb-4 text-center">🦜🏴‍☠️</div>
+                  <img
+                    src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=160&h=160&fit=crop&auto=format"
+                    alt="Pete der Piratenpapagei"
+                    className="w-20 h-20 rounded-lg object-cover mb-4 mx-auto"
+                  />
                   <h3 className="text-lg font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Pete der lachende Piraten Papagei
                   </h3>
@@ -267,8 +279,8 @@ export default function AbenteuergeschichtenPage() {
                     Eine lustige Piratengeschichte über Freundschaft und wahre Schätze.
                   </p>
                   <div className="text-xs text-gray-500">
-                    <span className="mr-3">👶 Ab 4 Jahren</span>
-                    <span>⏱️ 8 Min.</span>
+                    <span className="mr-3">Ab 4 Jahren</span>
+                    <span>8 Min.</span>
                   </div>
                 </article>
               </a>
@@ -279,7 +291,11 @@ export default function AbenteuergeschichtenPage() {
                 className="group block"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
-                  <div className="text-5xl mb-4 text-center">🛡️🏰</div>
+                  <img
+                    src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                    alt="Der kleinste Ritter"
+                    className="w-20 h-20 rounded-lg object-cover mb-4 mx-auto"
+                  />
                   <h3 className="text-lg font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Der kleinste Ritter aller Zeiten
                   </h3>
@@ -287,15 +303,19 @@ export default function AbenteuergeschichtenPage() {
                     Eine inspirierende Geschichte über eine Rittermaus, die beweist, dass wahre Größe von innen kommt.
                   </p>
                   <div className="text-xs text-gray-500">
-                    <span className="mr-3">👶 Ab 5 Jahren</span>
-                    <span>⏱️ 8-10 Min.</span>
+                    <span className="mr-3">Ab 5 Jahren</span>
+                    <span>8-10 Min.</span>
                   </div>
                 </article>
               </a>
 
               {/* Placeholder Card 3 */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-4xl mb-4 text-center">🏴‍☠️💎</div>
+                <img
+                  src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=160&h=160&fit=crop&auto=format"
+                  alt="Neue Abenteuer"
+                  className="w-20 h-20 rounded-lg object-cover mb-4 mx-auto opacity-50"
+                />
                 <h3 className="text-lg font-bold mb-2 text-gray-600">
                   Neue Abenteuer
                 </h3>
