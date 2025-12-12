@@ -221,14 +221,14 @@ export default function PeteDerLachendePiratenPapageiPage() {
           {/* Artikel-Header */}
           <header className="mb-8">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange break-words">
-              Pete der lachende Piraten Papagei 🦜
+              Pete der lachende Piraten Papagei 
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
-              <span>📖 Lesezeit: 8 Minuten</span>
+              <span>Lesezeit: 8 Minuten</span>
               <span>•</span>
-              <span>👶 Ab 4 Jahren</span>
+              <span>Ab 4 Jahren</span>
               <span>•</span>
-              <span>🏴‍☠️ Piraten-Abenteuer</span>
+              <span>Piraten-Abenteuer</span>
             </div>
           </header>
 
@@ -541,7 +541,11 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 href="/home/lesewelt/abenteuergeschichten/der-kleinste-ritter-aller-zeiten/"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-5xl mb-3">🛡️🏰</div>
+                <img
+                  src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                  alt="Ritter Abenteuer"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="font-bold mb-2 text-fluxie-orange">Der kleinste Ritter aller Zeiten</h3>
                 <p className="text-sm text-gray-600">Eine zauberhafte Geschichte über Mut und wahre Größe</p>
               </a>
@@ -550,7 +554,11 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 href="/home/lesewelt/abenteuergeschichten/piraten-abenteuer/"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-5xl mb-3">🏴‍☠️⚓</div>
+                <img
+                  src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=160&h=160&fit=crop&auto=format"
+                  alt="Piraten Abenteuer"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="font-bold mb-2 text-fluxie-orange">Piraten-Abenteuer</h3>
                 <p className="text-sm text-gray-600">Alle spannenden Piratengeschichten entdecken</p>
               </a>
@@ -559,7 +567,11 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 href="/home/lesewelt/abenteuergeschichten/"
                 className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 hover:shadow-lg transition-shadow border-2 border-fluxie-orange"
               >
-                <div className="text-5xl mb-3">⚔️✨</div>
+                <img
+                  src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=160&h=160&fit=crop&auto=format"
+                  alt="Alle Abenteuergeschichten"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="font-bold mb-2 text-fluxie-orange">Alle Abenteuergeschichten</h3>
                 <p className="text-sm text-gray-600">Entdecke noch mehr spannende Abenteuer</p>
               </a>

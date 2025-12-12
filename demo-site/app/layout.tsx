@@ -31,26 +31,23 @@ export default function RootLayout({
               <div className="flex gap-3 sm:gap-6 text-sm sm:text-base">
                 <a
                   href="/home/lesewelt/"
-                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-1 sm:gap-2"
+                  className="hover:opacity-80 transition font-medium text-white"
                 >
-                  <span className="text-lg sm:text-xl">📚</span>
-                  <span className="hidden xs:inline">Lesewelt</span>
+                  Lesewelt
                 </a>
                 <a
                   href="/home/blog/"
-                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-1 sm:gap-2"
+                  className="hover:opacity-80 transition font-medium text-white"
                 >
-                  <span className="text-lg sm:text-xl">✍️</span>
-                  <span className="hidden xs:inline">Blog</span>
+                  Blog
                 </a>
                 <a
                   href="https://fluxie.de/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-1 sm:gap-2"
+                  className="hover:opacity-80 transition font-medium text-white"
                 >
-                  <span className="text-lg sm:text-xl">🛒</span>
-                  <span className="hidden xs:inline">Shop</span>
+                  Shop
                 </a>
               </div>
             </div>

@@ -195,7 +195,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
           {/* Header mit Intro */}
           <header className="mb-12">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange break-words">
-              🐕 Gutenachtgeschichten mit Hunden
+              Gutenachtgeschichten mit Hunden
             </h1>
 
             <div className="prose prose-lg max-w-none text-gray-700">
@@ -242,8 +242,8 @@ export default function GutenachtgeschichtenMitHundenPage() {
                       Eine lustige Geschichte über Ruhe und Geduld.
                     </p>
                     <div className="space-y-2 text-sm text-gray-500 mb-4">
-                      <div>👶 Ab 3 Jahren</div>
-                      <div>⏱️ 5 Min. Lesezeit</div>
+                      <div>Ab 3 Jahren</div>
+                      <div>5 Min. Lesezeit</div>
                       <div>😴 Perfekt zum Einschlafen</div>
                     </div>
                     <span className="font-medium group-hover:underline text-fluxie-orange">
@@ -257,7 +257,11 @@ export default function GutenachtgeschichtenMitHundenPage() {
               <div className="block">
                 <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center opacity-50">🐶✨</div>
+                    <img
+                      src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=160&h=160&fit=crop&auto=format"
+                      alt="Bello träumt"
+                      className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto opacity-50"
+                    />
                     <h3 className="text-xl font-bold mb-3 text-gray-500">
                       Bello träumt
                     </h3>
@@ -265,8 +269,8 @@ export default function GutenachtgeschichtenMitHundenPage() {
                       Eine zauberhafte Geschichte über Bellos traumhafte Abenteuer im Hundeschlaf.
                     </p>
                     <div className="space-y-2 text-sm text-gray-400 mb-4">
-                      <div>👶 Ab 3 Jahren</div>
-                      <div>⏱️ 5 Min. Lesezeit</div>
+                      <div>Ab 3 Jahren</div>
+                      <div>5 Min. Lesezeit</div>
                     </div>
                     <span className="text-gray-400 font-medium italic">
                       Bald verfügbar
@@ -279,7 +283,11 @@ export default function GutenachtgeschichtenMitHundenPage() {
               <div className="block">
                 <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center opacity-50">🐕🌙</div>
+                    <img
+                      src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=160&h=160&fit=crop&auto=format"
+                      alt="Schnuffel ist müde"
+                      className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto opacity-50"
+                    />
                     <h3 className="text-xl font-bold mb-3 text-gray-500">
                       Schnuffel ist müde
                     </h3>
@@ -288,8 +296,8 @@ export default function GutenachtgeschichtenMitHundenPage() {
                       wie schön Schlaf sein kann.
                     </p>
                     <div className="space-y-2 text-sm text-gray-400 mb-4">
-                      <div>👶 Ab 3 Jahren</div>
-                      <div>⏱️ 6 Min. Lesezeit</div>
+                      <div>Ab 3 Jahren</div>
+                      <div>6 Min. Lesezeit</div>
                     </div>
                     <span className="text-gray-400 font-medium italic">
                       Bald verfügbar

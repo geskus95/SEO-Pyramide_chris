@@ -195,7 +195,7 @@ export default function RitterAbenteuerPage() {
           {/* Header mit Intro */}
           <header className="mb-12">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange break-words">
-              🏰 Ritter Abenteuergeschichten für Kinder
+              Ritter Abenteuergeschichten für Kinder
             </h1>
 
             <div className="prose prose-lg max-w-none text-gray-700">
@@ -228,7 +228,11 @@ export default function RitterAbenteuerPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center">🛡️🏰</div>
+                    <img
+                      src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                      alt="Der kleinste Ritter aller Zeiten"
+                      className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto"
+                    />
                     <h3 className="text-xl font-bold mb-3 group-hover:opacity-80 transition text-fluxie-orange">
                       Der kleinste Ritter aller Zeiten
                     </h3>
@@ -237,8 +241,8 @@ export default function RitterAbenteuerPage() {
                       dass wahre Größe von innen kommt. Ein Abenteuer über Selbstvertrauen!
                     </p>
                     <div className="space-y-2 text-sm text-gray-500 mb-4">
-                      <div>👶 Ab 5 Jahren</div>
-                      <div>⏱️ 8-10 Min. Lesezeit</div>
+                      <div>Ab 5 Jahren</div>
+                      <div>8-10 Min. Lesezeit</div>
                       <div>🏰 Mutig & Inspirierend</div>
                     </div>
                     <span className="font-medium group-hover:underline text-fluxie-orange">
@@ -252,7 +256,11 @@ export default function RitterAbenteuerPage() {
               <div className="block">
                 <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center opacity-50">🐉⚔️</div>
+                    <img
+                      src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                      alt="Der Drache vom Silberberg"
+                      className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto opacity-50"
+                    />
                     <h3 className="text-xl font-bold mb-3 text-gray-500">
                       Der Drache vom Silberberg
                     </h3>
@@ -261,8 +269,8 @@ export default function RitterAbenteuerPage() {
                       dass Freundschaft stärker ist als jedes Schwert.
                     </p>
                     <div className="space-y-2 text-sm text-gray-400 mb-4">
-                      <div>👶 Ab 5 Jahren</div>
-                      <div>⏱️ 10 Min. Lesezeit</div>
+                      <div>Ab 5 Jahren</div>
+                      <div>10 Min. Lesezeit</div>
                     </div>
                     <span className="text-gray-400 font-medium italic">
                       Bald verfügbar
@@ -275,7 +283,11 @@ export default function RitterAbenteuerPage() {
               <div className="block">
                 <article className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md p-6 h-full border-2 border-dashed border-gray-300">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center opacity-50">👑🏰</div>
+                    <img
+                      src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=160&h=160&fit=crop&auto=format"
+                      alt="Das verzauberte Schloss"
+                      className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto opacity-50"
+                    />
                     <h3 className="text-xl font-bold mb-3 text-gray-500">
                       Das verzauberte Schloss
                     </h3>
@@ -284,8 +296,8 @@ export default function RitterAbenteuerPage() {
                       eines verzauberten Schlosses zu brechen.
                     </p>
                     <div className="space-y-2 text-sm text-gray-400 mb-4">
-                      <div>👶 Ab 6 Jahren</div>
-                      <div>⏱️ 12 Min. Lesezeit</div>
+                      <div>Ab 6 Jahren</div>
+                      <div>12 Min. Lesezeit</div>
                     </div>
                     <span className="text-gray-400 font-medium italic">
                       Bald verfügbar
@@ -537,7 +549,11 @@ export default function RitterAbenteuerPage() {
                 href="/home/lesewelt/abenteuergeschichten/piraten-abenteuer/"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-5xl mb-3">🏴‍☠️⚓</div>
+                <img
+                  src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=160&h=160&fit=crop&auto=format"
+                  alt="Piraten Abenteuer"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="text-xl font-bold mb-2 text-fluxie-orange">Piraten-Abenteuer</h3>
                 <p className="text-gray-600">Spannende Geschichten über mutige Seefahrer und geheimnisvolle Schätze</p>
               </a>
@@ -546,7 +562,11 @@ export default function RitterAbenteuerPage() {
                 href="/home/lesewelt/abenteuergeschichten/"
                 className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 hover:shadow-lg transition-shadow border-2 border-fluxie-orange"
               >
-                <div className="text-5xl mb-3">⚔️✨</div>
+                <img
+                  src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=160&h=160&fit=crop&auto=format"
+                  alt="Alle Abenteuergeschichten"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="text-xl font-bold mb-2 text-fluxie-orange">Alle Abenteuergeschichten</h3>
                 <p className="text-gray-600">Entdecke noch mehr spannende Abenteuer</p>
               </a>

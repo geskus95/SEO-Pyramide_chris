@@ -146,7 +146,7 @@ export default function GutenachtgeschichtenPage() {
           {/* Kategorie-Header */}
           <header className="mb-12">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange break-words">
-              🌙 Gutenachtgeschichten für Kinder: Zauberhafte Einschlafgeschichten
+              Gutenachtgeschichten für Kinder: Zauberhafte Einschlafgeschichten
             </h1>
 
             <div className="prose prose-lg max-w-none text-gray-700">
@@ -215,7 +215,11 @@ export default function GutenachtgeschichtenPage() {
                 className="group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
-                  <div className="text-5xl mb-3">🐕</div>
+                  <img
+                    src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=160&h=160&fit=crop&auto=format"
+                    alt="Gutenachtgeschichten mit Hunden"
+                    className="w-20 h-20 rounded-lg object-cover mb-3"
+                  />
                   <h3 className="text-xl font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Gutenachtgeschichten mit Hunden
                   </h3>
@@ -227,7 +231,11 @@ export default function GutenachtgeschichtenPage() {
               </a>
 
               <div className="bg-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-5xl mb-3">🐱</div>
+                <img
+                  src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=160&h=160&fit=crop&auto=format"
+                  alt="Weitere Themen"
+                  className="w-20 h-20 rounded-lg object-cover mb-3 opacity-60"
+                />
                 <h3 className="text-xl font-bold mb-2 text-gray-600">
                   Weitere Themen folgen...
                 </h3>
@@ -277,15 +285,19 @@ export default function GutenachtgeschichtenPage() {
                     Eine lustige Geschichte über einen quirligen Hund, der lernt, zur Ruhe zu kommen.
                   </p>
                   <div className="text-xs text-gray-500">
-                    <span className="mr-3">👶 Ab 3 Jahren</span>
-                    <span>⏱️ 5 Min.</span>
+                    <span className="mr-3">Ab 3 Jahren</span>
+                    <span>5 Min.</span>
                   </div>
                 </article>
               </a>
 
               {/* Placeholder Card 2 */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-4xl mb-4 text-center">🌙✨</div>
+                <img
+                  src="https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=160&h=160&fit=crop&auto=format"
+                  alt="Weitere Geschichten"
+                  className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto opacity-60"
+                />
                 <h3 className="text-lg font-bold mb-2 text-gray-600">
                   Weitere Geschichten folgen
                 </h3>
@@ -299,7 +311,11 @@ export default function GutenachtgeschichtenPage() {
 
               {/* Placeholder Card 3 */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-4xl mb-4 text-center">📖💫</div>
+                <img
+                  src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=160&h=160&fit=crop&auto=format"
+                  alt="Neue Abenteuer"
+                  className="w-20 h-20 rounded-lg object-cover mb-3 mx-auto opacity-60"
+                />
                 <h3 className="text-lg font-bold mb-2 text-gray-600">
                   Neue Abenteuer
                 </h3>

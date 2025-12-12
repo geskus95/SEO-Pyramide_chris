@@ -238,9 +238,9 @@ export default function WuffiUndDieSchlafschafePage() {
               Gutenachtgeschichte mit Hund: Wuffi und die Schlafschafe
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
-              <span>📖 Lesezeit: 5 Minuten</span>
+              <span>Lesezeit: 5 Minuten</span>
               <span>•</span>
-              <span>👶 Ab 3 Jahren</span>
+              <span>Ab 3 Jahren</span>
               <span>•</span>
               <span>🌙 Gutenachtgeschichte</span>
             </div>
@@ -548,19 +548,31 @@ export default function WuffiUndDieSchlafschafePage() {
                 href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-5xl mb-3">🐕✨</div>
+                <img
+                  src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=160&h=160&fit=crop&auto=format"
+                  alt="Mehr Hundegeschichten"
+                  className="w-20 h-20 rounded-lg object-cover mb-3"
+                />
                 <h3 className="font-bold mb-2 text-fluxie-orange">Mehr Hundegeschichten</h3>
                 <p className="text-sm text-gray-600">Entdecke alle Gutenachtgeschichten mit Hunden</p>
               </a>
 
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 border-2 border-dashed border-gray-300">
-                <div className="text-5xl mb-3 opacity-50">🐶🌙</div>
+                <img
+                  src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=160&h=160&fit=crop&auto=format"
+                  alt="Bello träumt"
+                  className="w-20 h-20 rounded-lg object-cover mb-3 opacity-50"
+                />
                 <h3 className="font-bold text-gray-500 mb-2">Bello träumt</h3>
                 <p className="text-sm text-gray-400 italic">Bald verfügbar</p>
               </div>
 
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 border-2 border-dashed border-gray-300">
-                <div className="text-5xl mb-3 opacity-50">💤🐕</div>
+                <img
+                  src="https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=160&h=160&fit=crop&auto=format"
+                  alt="Schnuffel ist müde"
+                  className="w-20 h-20 rounded-lg object-cover mb-3 opacity-50"
+                />
                 <h3 className="font-bold text-gray-500 mb-2">Schnuffel ist müde</h3>
                 <p className="text-sm text-gray-400 italic">Bald verfügbar</p>
               </div>
