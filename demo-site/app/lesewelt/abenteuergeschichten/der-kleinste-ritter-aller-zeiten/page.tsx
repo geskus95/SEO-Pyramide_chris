@@ -220,7 +220,7 @@ export default function DerKleinsteRitterPage() {
 
           {/* Artikel-Header */}
           <header className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange break-words">
               Der kleinste Ritter aller Zeiten 🐭🛡️
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
@@ -253,9 +253,6 @@ export default function DerKleinsteRitterPage() {
 
           {/* Story-Text */}
           <div className="prose prose-lg max-w-none mb-12">
-            <h2 className="text-2xl font-bold mb-4 text-fluxie-orange">
-              Die Geschichte beginnt...
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Auf der Burg Hochenstein lebte einst die kleinste Rittermaus des ganzen Königreichs.
               Ihr Name war Kunibert, und sie hatte wunderschönes blaues Fell, das unter ihrer
@@ -272,9 +269,6 @@ export default function DerKleinsteRitterPage() {
               Käse des ganzen Landes!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
-              Der bunte Drache kommt!
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Eines Morgens wurde die Burg von einem lauten Gebrüll geweckt. Am Horizont erschien
               eine riesige Gestalt mit gewaltigen, schillernden Flügeln – ein Drache! Und was für
@@ -293,9 +287,6 @@ export default function DerKleinsteRitterPage() {
               Keiner wollte dem hungrigen Drachen begegnen!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
-              Kuniberts käsiger Plan
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Rittermaus Kunibert hingegen hatte eine clevere Idee! Sie kannte sich mit Käse aus wie
               keine andere – schließlich war sie eine Maus! Und sie wusste genau, dass Drachen Käse
@@ -320,9 +311,6 @@ export default function DerKleinsteRitterPage() {
               Korridor, und schließlich zu einer ganz besonderen Tür: der winzigen Tür zur Käsekammer!
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
-              Die clevere Lösung
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               Die Tür zur Käsekammer war winzig – gerade groß genug für eine Maus, aber viel zu
               klein für einen Drachen! Regenbogenflügel versuchte verzweifelt, seinen großen Kopf
@@ -346,9 +334,6 @@ export default function DerKleinsteRitterPage() {
               Kleines einem Großen hilft! So, hier ist dein Käse – der beste im ganzen Königreich!"</strong>
             </p>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4 text-fluxie-orange">
-              Das glückliche Ende
-            </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               <strong>„Natürlich!"</strong>, antwortete Kunibert mit einem Lächeln.
               <strong>„Teilen macht nämlich doppelt so viel Spaß!"</strong> Regenbogenflügel

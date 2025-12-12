@@ -10,7 +10,7 @@ export default function LeseweltPage() {
         </nav>
 
         {/* Hero */}
-        <h1 className="text-4xl font-bold mb-4 text-fluxie-orange">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange break-words">
           📚 Lesewelt – Entdecke unsere Geschichten
         </h1>
         <p className="text-lg text-gray-600 mb-12">

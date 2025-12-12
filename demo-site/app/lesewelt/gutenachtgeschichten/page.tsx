@@ -145,7 +145,7 @@ export default function GutenachtgeschichtenPage() {
 
           {/* Kategorie-Header */}
           <header className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange break-words">
               🌙 Gutenachtgeschichten für Kinder: Zauberhafte Einschlafgeschichten
             </h1>
 
