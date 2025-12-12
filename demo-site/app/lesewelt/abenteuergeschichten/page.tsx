@@ -119,13 +119,13 @@ export default function AbenteuergeschichtenPage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/home/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
+                <a href="/home/" className="hover:opacity-80 transition text-fluxie-orange">Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition text-fluxie-orange">Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
@@ -138,7 +138,7 @@ export default function AbenteuergeschichtenPage() {
 
           {/* Kategorie-Header */}
           <header className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#f77f00' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-fluxie-orange">
               ⚔️ Abenteuergeschichten für Kinder: Spannende Vorlesegeschichten
             </h1>
 
@@ -159,7 +159,7 @@ export default function AbenteuergeschichtenPage() {
           </header>
 
           {/* Fluxie Produkt-Box */}
-          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg border-fluxie-orange">
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -176,7 +176,7 @@ export default function AbenteuergeschichtenPage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-2xl font-bold mb-3 text-fluxie-orange">
                   Abenteuergeschichten interaktiv erleben
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -208,7 +208,7 @@ export default function AbenteuergeschichtenPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
                   <div className="text-5xl mb-3">🏴‍☠️</div>
-                  <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                  <h3 className="text-xl font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Piraten-Abenteuer
                   </h3>
                   <p className="text-gray-600">
@@ -223,7 +223,7 @@ export default function AbenteuergeschichtenPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
                   <div className="text-5xl mb-3">🏰</div>
-                  <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                  <h3 className="text-xl font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Ritter-Abenteuer
                   </h3>
                   <p className="text-gray-600">
@@ -260,7 +260,7 @@ export default function AbenteuergeschichtenPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <div className="text-5xl mb-4 text-center">🦜🏴‍☠️</div>
-                  <h3 className="text-lg font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                  <h3 className="text-lg font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Pete der lachende Piraten Papagei
                   </h3>
                   <p className="text-sm text-gray-600 mb-3">
@@ -280,7 +280,7 @@ export default function AbenteuergeschichtenPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <div className="text-5xl mb-4 text-center">🛡️🏰</div>
-                  <h3 className="text-lg font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                  <h3 className="text-lg font-bold mb-2 group-hover:opacity-80 text-fluxie-orange">
                     Der kleinste Ritter aller Zeiten
                   </h3>
                   <p className="text-sm text-gray-600 mb-3">
@@ -347,7 +347,7 @@ export default function AbenteuergeschichtenPage() {
 
           {/* Tipps für das Vorlesen */}
           <section className="mb-12 bg-orange-50 rounded-xl p-8 border-2 border-orange-100">
-            <h2 className="text-2xl font-bold mb-4" style={{ color: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mb-4 text-fluxie-orange">
               💡 Tipps für das Vorlesen von Abenteuergeschichten
             </h2>
             <ul className="space-y-2 text-gray-700">
@@ -360,7 +360,7 @@ export default function AbenteuergeschichtenPage() {
           </section>
 
           {/* Luna Produktbox */}
-          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg border-fluxie-orange">
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -377,7 +377,7 @@ export default function AbenteuergeschichtenPage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-2xl font-bold mb-3 text-fluxie-orange">
                   Entdecke Luna – Ein mutiges Abenteuer
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -458,7 +458,7 @@ export default function AbenteuergeschichtenPage() {
           </section>
 
           {/* Testimonial */}
-          <section className="mb-12 bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl p-8 border-2" style={{ borderColor: '#f77f00' }}>
+          <section className="mb-12 bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl p-8 border-2 border-fluxie-orange">
             <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">
               Was Eltern über unsere Abenteuergeschichten sagen
             </h2>
@@ -480,7 +480,7 @@ export default function AbenteuergeschichtenPage() {
               Häufig gestellte Fragen zu Abenteuergeschichten
             </h2>
             <div className="space-y-6">
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-l-fluxie-orange">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Ab welchem Alter sind Abenteuergeschichten geeignet?
                 </h3>
@@ -492,7 +492,7 @@ export default function AbenteuergeschichtenPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-l-fluxie-orange">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Sind Abenteuergeschichten nicht zu aufregend vor dem Schlafengehen?
                 </h3>
@@ -504,7 +504,7 @@ export default function AbenteuergeschichtenPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-l-fluxie-orange">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Wie kann ich mein Kind während des Vorlesens einbeziehen?
                 </h3>
@@ -516,7 +516,7 @@ export default function AbenteuergeschichtenPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-l-fluxie-orange">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Welche Werte vermitteln Abenteuergeschichten?
                 </h3>
@@ -528,7 +528,7 @@ export default function AbenteuergeschichtenPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-l-fluxie-orange">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Wie lang sollte eine Abenteuergeschichte sein?
                 </h3>

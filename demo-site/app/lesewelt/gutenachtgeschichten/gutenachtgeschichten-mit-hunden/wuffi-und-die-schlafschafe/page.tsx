@@ -199,19 +199,19 @@ export default function WuffiUndDieSchlafschafePage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/home/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
+                <a href="/home/" className="hover:opacity-80 transition text-fluxie-orange">Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition text-fluxie-orange">Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/gutenachtgeschichten/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/gutenachtgeschichten/" className="hover:opacity-80 transition text-fluxie-orange">
                   Gutenachtgeschichten
                 </a>
               </li>
@@ -219,7 +219,7 @@ export default function WuffiUndDieSchlafschafePage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="hover:opacity-80 transition text-fluxie-orange">
                   Mit Hunden
                 </a>
               </li>
@@ -234,7 +234,7 @@ export default function WuffiUndDieSchlafschafePage() {
 
           {/* Artikel-Header */}
           <header className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#f77f00' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-fluxie-orange">
               Gutenachtgeschichte mit Hund: Wuffi und die Schlafschafe
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
@@ -247,7 +247,7 @@ export default function WuffiUndDieSchlafschafePage() {
           </header>
 
           {/* Teaser */}
-          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg" style={{ borderLeftColor: '#f77f00' }}>
+          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg border-l-fluxie-orange">
             <p className="text-lg text-gray-700 italic leading-relaxed">
               Wuffi, der kleine zottelige Hund, will der beste Schlafschaf-Champion werden.
               Doch Stillsitzen ist gar nicht so einfach! Eine lustige und beruhigende
@@ -367,7 +367,7 @@ export default function WuffiUndDieSchlafschafePage() {
           </div>
 
           {/* ★ PRODUKTBOX mit echtem Bild - Direkt nach der Geschichte */}
-          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg border-fluxie-orange">
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -384,7 +384,7 @@ export default function WuffiUndDieSchlafschafePage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-2xl font-bold mb-3 text-fluxie-orange">
                   Geschichten wie Wuffi interaktiv erleben
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -409,7 +409,7 @@ export default function WuffiUndDieSchlafschafePage() {
           </div>
 
           {/* ★ OUTRO: Warum Hundegeschichten zum Einschlafen perfekt sind */}
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4 border-l-fluxie-orange">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
               Warum Hundegeschichten perfekt zum Einschlafen sind
             </h2>
@@ -448,7 +448,7 @@ export default function WuffiUndDieSchlafschafePage() {
             <a
               href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
               className="inline-flex items-center font-medium hover:opacity-80 transition"
-              style={{ color: '#f77f00' }}
+              className="text-fluxie-orange"
             >
               ← Zurück zu allen Hundegeschichten
             </a>
@@ -462,7 +462,7 @@ export default function WuffiUndDieSchlafschafePage() {
             <div className="space-y-6">
               {/* FAQ 1 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Ab welchem Alter eignet sich diese Hundegeschichte für Kinder?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -475,7 +475,7 @@ export default function WuffiUndDieSchlafschafePage() {
 
               {/* FAQ 2 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Wie lange dauert es, diese kurze Hundegeschichte vorzulesen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -487,7 +487,7 @@ export default function WuffiUndDieSchlafschafePage() {
 
               {/* FAQ 3 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Warum helfen Hundegeschichten beim Einschlafen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -500,7 +500,7 @@ export default function WuffiUndDieSchlafschafePage() {
 
               {/* FAQ 4 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Kann ich diese Geschichte auch online kostenlos vorlesen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -513,7 +513,7 @@ export default function WuffiUndDieSchlafschafePage() {
 
               {/* FAQ 5 */}
               <div className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Welche Botschaft vermittelt "Wuffi und die Schlafschafe"?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -526,11 +526,11 @@ export default function WuffiUndDieSchlafschafePage() {
 
               {/* FAQ 6 */}
               <div>
-                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                <h3 className="text-xl font-semibold mb-3 text-fluxie-orange">
                   Gibt es weitere Gutenachtgeschichten mit Hunden auf Fluxie?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Ja! In unserer Rubrik <a href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
+                  Ja! In unserer Rubrik <a href="/home/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="font-semibold hover:opacity-80 text-fluxie-orange">
                   "Gutenachtgeschichten mit Hunden"</a> finden Sie weitere <strong>Hundegeschichten für Kinder</strong> zum kostenlosen
                   Vorlesen. Wir erweitern die Sammlung regelmäßig um neue <strong>Einschlafgeschichten mit Hund</strong>, die speziell
                   für das Alter 3-8 Jahre entwickelt wurden. Schauen Sie gerne regelmäßig vorbei!
@@ -550,7 +550,7 @@ export default function WuffiUndDieSchlafschafePage() {
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🐕✨</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Mehr Hundegeschichten</h3>
+                <h3 className="font-bold mb-2 text-fluxie-orange">Mehr Hundegeschichten</h3>
                 <p className="text-sm text-gray-600">Entdecke alle Gutenachtgeschichten mit Hunden</p>
               </a>
 
