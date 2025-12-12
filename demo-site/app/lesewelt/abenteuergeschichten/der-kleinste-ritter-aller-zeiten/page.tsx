@@ -568,21 +568,21 @@ export default function DerKleinsteRitterPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <a
+                href="/home/lesewelt/abenteuergeschichten/ritter-abenteuer/"
+                className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
+              >
+                <div className="text-5xl mb-3">🏰🛡️</div>
+                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Alle Ritter-Abenteuer</h3>
+                <p className="text-sm text-gray-600">Entdecke noch mehr spannende Rittergeschichten</p>
+              </a>
+
+              <a
                 href="/home/lesewelt/abenteuergeschichten/pete-der-lachende-piraten-papagei/"
                 className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🦜🏴‍☠️</div>
                 <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Pete der lachende Piraten-Papagei</h3>
                 <p className="text-sm text-gray-600">Ein lustiges Piraten-Abenteuer mit einem Papagei, der nicht aufhören kann zu lachen!</p>
-              </a>
-
-              <a
-                href="/home/lesewelt/abenteuergeschichten/piraten-abenteuer/"
-                className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
-              >
-                <div className="text-5xl mb-3">🏴‍☠️⚓</div>
-                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Piraten-Abenteuer</h3>
-                <p className="text-sm text-gray-600">Alle spannenden Piratengeschichten entdecken</p>
               </a>
 
               <a

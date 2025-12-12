@@ -199,13 +199,13 @@ export default function PeteDerLachendePiratenPapageiPage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt/abenteuergeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
+                <a href="/home/lesewelt/abenteuergeschichten/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Abenteuergeschichten
                 </a>
               </li>
@@ -523,7 +523,7 @@ export default function PeteDerLachendePiratenPapageiPage() {
                   Gibt es weitere Abenteuergeschichten auf Fluxie?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Ja! In unserer Rubrik <a href="/home/lesewelt/abenteuergeschichten" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
+                  Ja! In unserer Rubrik <a href="/home/lesewelt/abenteuergeschichten/" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
                   "Abenteuergeschichten"</a> finden Sie weitere spannende Geschichten für kleine Entdecker zum kostenlosen
                   Vorlesen. Wir erweitern die Sammlung regelmäßig um neue <strong>Piratengeschichten</strong> und andere
                   Abenteuer, die speziell für das Alter 4-10 Jahre entwickelt wurden. Schauen Sie gerne regelmäßig vorbei!

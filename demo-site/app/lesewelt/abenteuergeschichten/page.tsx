@@ -125,7 +125,7 @@ export default function AbenteuergeschichtenPage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
@@ -217,21 +217,26 @@ export default function AbenteuergeschichtenPage() {
                 </article>
               </a>
 
-              <div className="bg-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-5xl mb-3">🏰</div>
-                <h3 className="text-xl font-bold mb-2 text-gray-600">
-                  Ritter & Drachen
-                </h3>
-                <p className="text-gray-500">
-                  Heldenhafte Geschichten über tapfere Ritter und feuerspeiende Drachen – demnächst hier!
-                </p>
-              </div>
+              <a
+                href="/home/lesewelt/abenteuergeschichten/ritter-abenteuer/"
+                className="group"
+              >
+                <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
+                  <div className="text-5xl mb-3">🏰</div>
+                  <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                    Ritter-Abenteuer
+                  </h3>
+                  <p className="text-gray-600">
+                    Spannende Geschichten über tapfere Ritter, geheimnisvolle Burgen und mutige Heldentaten
+                  </p>
+                </article>
+              </a>
             </div>
 
             {/* CTA-Button */}
             <div className="text-center">
               <a
-                href="/home/lesewelt"
+                href="/home/lesewelt/"
                 className="inline-block bg-fluxie-orange hover:bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 Alle Geschichten entdecken →
@@ -268,19 +273,25 @@ export default function AbenteuergeschichtenPage() {
                 </article>
               </a>
 
-              {/* Placeholder Card 2 */}
-              <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-4xl mb-4 text-center">🗺️🔍</div>
-                <h3 className="text-lg font-bold mb-2 text-gray-600">
-                  Weitere Geschichten folgen
-                </h3>
-                <p className="text-sm text-gray-500 mb-3">
-                  Bald findest du hier noch mehr spannende Geschichten.
-                </p>
-                <div className="text-xs text-gray-400">
-                  <span className="mr-3">Demnächst...</span>
-                </div>
-              </div>
+              {/* Story Card 2 - Knight */}
+              <a
+                href="/home/lesewelt/abenteuergeschichten/der-kleinste-ritter-aller-zeiten/"
+                className="group block"
+              >
+                <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
+                  <div className="text-5xl mb-4 text-center">🛡️🏰</div>
+                  <h3 className="text-lg font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                    Der kleinste Ritter aller Zeiten
+                  </h3>
+                  <p className="text-sm text-gray-600 mb-3">
+                    Eine inspirierende Geschichte über eine Rittermaus, die beweist, dass wahre Größe von innen kommt.
+                  </p>
+                  <div className="text-xs text-gray-500">
+                    <span className="mr-3">👶 Ab 5 Jahren</span>
+                    <span>⏱️ 8-10 Min.</span>
+                  </div>
+                </article>
+              </a>
 
               {/* Placeholder Card 3 */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">

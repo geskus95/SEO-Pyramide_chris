@@ -132,7 +132,7 @@ export default function GutenachtgeschichtenPage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/home/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
+                <a href="/home/lesewelt/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
@@ -240,7 +240,7 @@ export default function GutenachtgeschichtenPage() {
             {/* CTA-Button */}
             <div className="text-center">
               <a
-                href="/home/lesewelt"
+                href="/home/lesewelt/"
                 className="inline-block bg-fluxie-orange hover:bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 Alle Geschichten entdecken →
